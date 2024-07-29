@@ -1,0 +1,122 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background: #eee;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    font-size: 2em;
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    background: #0056b3;
+}
+
+.tour,
+.gallery,
+.contact {
+    padding: 20px;
+}
+
+.tour h2,
+.gallery h2,
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.thumbnail img {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+.contact form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact form label {
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

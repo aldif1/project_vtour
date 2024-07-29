@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Tour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#tour">Tur</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="banner">
+            <h1>Selamat Datang di Tur Virtual Museum XYZ</h1>
+            <button onclick="startTour()">Mulai Tur</button>
+        </section>
+
+        <section id="tour" class="tour">
+            <h2>Tur Virtual</h2>
+            <div id="map">
+                <button onclick="navigateTo('room1')">Ruangan 1</button>
+                <button onclick="navigateTo('room2')">Ruangan 2</button>
+            </div>
+            <div id="roomContent">
+                <!-- Konten ruangan akan dimuat di sini -->
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Galeri</h2>
+            <div class="thumbnail" onclick="showImage('img1')">
+                <img src="thumbnail1.jpg" alt="Thumbnail 1">
+                <p>Objek 1</p>
+            </div>
+            <div class="thumbnail" onclick="showImage('img2')">
+                <img src="thumbnail2.jpg" alt="Thumbnail 2">
+                <p>Objek 2</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Kontak Kami</h2>
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Virtual Tour Company</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
