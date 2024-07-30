@@ -1,74 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual Tour</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Virtual Tour Jawa Tengah</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .city-card {
+            cursor: pointer;
+        }
+    </style>
 </head>
-
 <body>
-    <header>
-        <div class="logo">Logo</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#tour">Tur</a></li>
-                <li><a href="#gallery">Galeri</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="home" class="banner">
-            <h1>Selamat Datang di Tur Virtual Museum XYZ</h1>
-            <button onclick="startTour()">Mulai Tur</button>
-        </section>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Virtual Tour</a>
+</nav>
 
-        <section id="tour" class="tour">
-            <h2>Tur Virtual</h2>
-            <div id="map">
-                <button onclick="navigateTo('room1')">Ruangan 1</button>
-                <button onclick="navigateTo('room2')">Ruangan 2</button>
-            </div>
-            <div id="roomContent">
-                <!-- Konten ruangan akan dimuat di sini -->
-            </div>
-        </section>
+<!-- Main Content -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <a href="tegal.html" class="card city-card">
+                <img src="tegal.jpg" class="card-img-top" alt="Tegal">
+                <div class="card-body">
+                    <h5 class="card-title">Tegal</h5>
+                    <p class="card-text">Kota Tegal di Jawa Tengah dikenal dengan sejarah dan budayanya yang kaya.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mb-4">
+            <a href="semarang.html" class="card city-card">
+                <img src="semarang.jpg" class="card-img-top" alt="Semarang">
+                <div class="card-body">
+                    <h5 class="card-title">Semarang</h5>
+                    <p class="card-text">Kota Semarang merupakan ibu kota Provinsi Jawa Tengah dengan beragam tempat wisata menarik.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 
-        <section id="gallery" class="gallery">
-            <h2>Galeri</h2>
-            <div class="thumbnail" onclick="showImage('img1')">
-                <img src="thumbnail1.jpg" alt="Thumbnail 1">
-                <p>Objek 1</p>
-            </div>
-            <div class="thumbnail" onclick="showImage('img2')">
-                <img src="thumbnail2.jpg" alt="Thumbnail 2">
-                <p>Objek 2</p>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <h2>Kontak Kami</h2>
-            <form>
-                <label for="name">Nama:</label>
-                <input type="text" id="name" name="name">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for="message">Pesan:</label>
-                <textarea id="message" name="message"></textarea>
-                <button type="submit">Kirim</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Virtual Tour Company</p>
-    </footer>
-
-    <script src="script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>

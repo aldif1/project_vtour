@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="18080" version="6.1.13">
+<pano2vrconfig version="6.1.13" rev="18080">
   <tour>
     <panorama>
       <id>node1</id>
@@ -53,7 +53,9 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <animation/>
+      <animation>
+        <sequence/>
+      </animation>
     </panorama>
     <panorama>
       <input>
@@ -442,7 +444,6 @@
     <sounds/>
     <animation>
       <title>Animation01</title>
-      <sequence/>
     </animation>
   </panorama>
 </pano2vrconfig>
