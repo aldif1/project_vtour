@@ -1,0 +1,110 @@
+{% extends 'include/include.html' %} 
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../../static/assets/libs/quill/dist/quill.snow.css" />
+<style>
+  .ql-toolbar .ql-formats svg {
+    width: 20px; /* Lebar ikon */
+    height: 20px; /* Tinggi ikon */
+}
+  .ql-toolbar .ql-formats ql-align svg{
+    padding-bottom:5px;
+}
+</style>
+{% endblock %}
+{% block content %}
+  <div class="page-titles">
+    <div class="row">
+      <div class="col-lg-8 col-md-6 col-12 align-self-center">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0 d-flex align-items-center">
+            <li class="breadcrumb-item">
+              <a href="index.html" class="link"
+                ><i class="ri-home-3-line fs-5"></i
+              ></a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">/Info Desa/Sejarah</li>
+          </ol>
+        </nav>
+        <h1 class="mb-0 fw-bold">Sejarah</h1>
+      </div>
+      <div class=" col-lg-4 col-md-6 d-md-flex align-items-center justify-content-end " > 
+        <a id="submit" href="javascript:void(0)" class="btn btn-info d-flex align-items-center ms-2" > Submit </a> 
+      </div>
+    
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <!-- ============================================================= -->
+    <!-- Start Page Content -->
+    <!-- ============================================================= -->
+    <!-- Row -->
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="border-bottom title-part-padding">
+            <h4 class="mb-0">Edit Sejarah</h4>
+          </div>
+          <div class="card-body">
+            <!-- Create the editor container -->
+            <div id="editor" style="height: 300px">
+             {{info[0].sejarah|safe}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================================================= -->
+    <!-- End PAge Content -->
+    <!-- ============================================================= -->
+  </div>
+  
+  <!-- Initialize Quill editor -->
+  
+    <!-- All Jquery -->
+    <!-- ============================================================= -->
+    
+  <script>    
+  var token = "{{ session['jwt_token'] }}"
+    console.log(token)
+    $(document).ready(function () {
+        var quill = new Quill("#editor", {
+            theme: "snow",
+                modules: {
+                  toolbar: [
+                      [{ 'header': [1, 2, 3, false] }],  
+                      ['bold', 'italic', 'underline'],  // Menentukan toolbar yang ingin ditampilkan
+                      [{ 'list': 'ordered'}, { 'list': 'bullet' }],  // Menambahkan tombol untuk daftar terurut dan tidak terurut
+                      [{ 'align': [] }],
+                      ['link', 'image']  // Menambahkan tombol untuk menyisipkan link dan gambar
+                  ]
+              },
+          });
+        $( "#submit" ).on( "click", function() {
+            var value = quill.root.innerHTML
+            //var content = quill.getContents()
+            //var contenthtml = content
+            //console.log(quill.getContents())
+            console.log(String(value))
+            var formData = {
+                sejarah: String(value)
+              };
+              console.log(formData)
+              $.ajax({
+                type: "PUT",
+                url: "/admin/edit_sejarah",
+                data: formData,
+                dataType: "json",
+                encode: true,
+                headers: {
+                  'Authorization': 'Bearer ' + token
+              },
+              }).done(function (data) {
+                 handleResponse(data,"edit","/admin/infodesa");
+              });
+              event.preventDefault();
+          } );
+      });
+  </script>
+  
+  {% endblock %}

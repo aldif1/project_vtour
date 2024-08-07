@@ -1,0 +1,416 @@
+{% extends 'include/include.html' %} {% block content %}
+<div class="page-titles">
+  <div class="row">
+    <div class="col-lg-8 col-md-6 col-12 align-self-center">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0 d-flex align-items-center">
+          <li class="breadcrumb-item">
+            <a href="index.html" class="link"><i class="ri-home-3-line fs-5"></i></a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Info Desa / Monografi</li>
+        </ol>
+      </nav>
+      <h1 class="mb-0 fw-bold">Monografi</h1>
+    </div>
+    <div class="col-lg-4 col-md-6 d-md-flex align-items-center justify-content-end">
+      <a href="javascript:void(0)" class="btn btn-info d-flex align-items-center ms-2"
+      data-bs-toggle="modal"
+      data-bs-target="#bs-example-modal-xlg">
+        <i data-feather="edit" style="width: 18px; height: 18px; margin-right: 10px"></i>
+        Tambah Tahun
+      </a>
+    </div>
+    <div class="modal fade" id="bs-example-modal-xlg" tabindex="-1" aria-labelledby="bs-example-modal-lg"
+      aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header d-flex align-items-center">
+            <h4 class="modal-title" id="myLargeModalLabel">
+              Tambah Tahun
+            </h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h4>Input Tahun</h4>
+            <form>
+              <div class="form-group">
+                <input type="number" id="tahun_baru" class="form-control" />
+              </div>
+            </form>
+            <div class="modal-footer">
+              <button type="button" class="
+                  btn btn-light-danger
+                  text-danger
+                  font-weight-medium
+                " data-bs-dismiss="modal">
+                Close
+              </button>
+              <button type="button" id="tambah_tahun"class="btn btn-success" data-bs-dismiss="modal">
+                Simpan
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <!-- ============================================================= -->
+  <!-- Start Page Content -->
+  <!-- ============================================================= -->
+  <!-- Row -->
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+       <!-- <form class="form-horizontal" action="/admin/monoedit" method="post"> -->
+          <div class="card-body border-bottom">
+            <h4 class="card-title">Monografi Desa</h4>
+            <div class="col-sm-3">
+              <div class="mb-3">
+                <input type="hidden" name="tahun">
+                <select class="form-select" id="tahun" name="selected_tahun" >
+                  {% for i in info_list :%}
+                  {% if loop.first%}
+                    <option value="{{i.tahun}}" clicked>{{i.tahun}}</option>
+                  {% else %}
+                    <option value="{{i.tahun}}">{{i.tahun}}</option>
+                  {% endif %}
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="form-horizontal">
+            <div class="card-body">
+              <input type="hidden" name="Authorization" value="Bearer {{ session['jwt_token'] }}">
+              <input type="hidden" class="form-control" name="id" value="{{info_list[0]['id']}}" />
+              <h4 class="card-title">Kependudukan</h4>
+              <div class="mb-3 row">
+                <label for="cono" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jumlah Penduduk</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jpenduduk" value=" {{info_list[0]['jpenduduk']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="cono" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jumlah KK</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jkk" value="{{info_list[0]['jkk']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="cono1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Laki-Laki</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="laki" value="{{info_list[0]['laki']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="cono1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Perempuan</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="perempuan" value="{{info_list[0]['perempuan']}}" />
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Kesejahteraan Sosial</h4>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jumlah KK Prasejahtera</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jkkprese" value="{{info_list[0]['jkkprese']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jumlah KK Sejahtera</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jkkseja" value="{{info_list[0]['jkkseja']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jumlah KK Kaya</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jkkkaya" value="{{info_list[0]['jkkkaya']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jumlah KK Sedang</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jkksedang" value="{{info_list[0]['jkksedang']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jumlah KK Miskin</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jkkmiskin" value="{{info_list[0]['jkkmiskin']}}" />
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Pekerjaan</h4>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Buruh</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jkkprese" value="{{info_list[0]['buruh']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Petani</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="petani" value="{{info_list[0]['petani']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Peternak</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="peternak" value="{{info_list[0]['peternak']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Pedagang</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="pedagang" value="{{info_list[0]['pedagang']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Tukang Kayu</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="tukangkayu" value="{{info_list[0]['tukangkayu']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Tukang Batu</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="tukangbatu" value="{{info_list[0]['tukangbatu']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Penjahit</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="penjahit" value="{{info_list[0]['penjahit']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Pegawai
+                  Sipil/Polisi/Tentara</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="asn" value="{{info_list[0]['asn']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Pensiunan</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="pensiunan" value="{{info_list[0]['pensiunan']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Perangkat desa</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="perangkatdesa"
+                    value="{{info_list[0]['perangkatdesa']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Jasa / Wiraswasta</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="jasa_wiraswasta"
+                    value="{{info_list[0]['jasa_wiraswasta']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Pengrajin Batik</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="pengrajinbatik"
+                    value="{{info_list[0]['pengrajinbatik']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Dll</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="dll" value="{{info_list[0]['dll']}}" />
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Agama</h4>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Islam</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="islam" value="{{info_list[0]['islam']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Kristen</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="kristen" value="{{info_list[0]['kristen']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Protestan</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="protestan" value="{{info_list[0]['protestan']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Katolik</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="katolik" value="{{info_list[0]['katolik']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Hindu</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="hindu" value="{{info_list[0]['hindu']}}" />
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="com1" class="rata-kiri-mobile col-sm-3  control-label col-form-label">Budha</label>
+                <div class="col-sm-9">
+                  <input type="text" class="form-control" name="budha" value="{{info_list[0]['budha']}}" />
+                </div>
+              </div>
+            </div>
+            <div class="p-3 border-top">
+              <div class="text-end">
+                <button id="kirim" type="button" name="submit" class=" btn btn-info rounded-pill px-4 waves-effect waves-light "> Save edit </button>
+                <button type="button" onclick="hapusMono()" class=" btn btn-danger rounded-pill px-4 waves-effect waves-light "> Hapus Data </button>
+              </div>
+            </div>
+          </div>
+        <!--</form> -->
+      </div>
+    </div>
+  </div>
+
+  {% endblock %}
+  {% block js%}
+  <script>
+    $(document).ready(function(){
+      
+    var cb = $('#tahun').prop('selected');
+    console.log(cb)
+    var fields = ['id', 'jpenduduk', 'jkk', 'laki', 'perempuan', 'jkkprese', 'jkkseja', 'jkkkaya',
+    'jkksedang', 'jkkmiskin', 'petani','peternak','pedagang','tukangkayu','tukangbatu','penjahit','asn','pensiunan','perangkatdesa','jasa_wiraswasta',
+    'pengrajinbatik','dll', 'islam', 'kristen', 'protestan', 'katolik', 'hindu', 'budha'
+  ];
+    function change(){
+      var info_list = JSON.parse('{{info_list|tojson}}');
+      console.log(info_list);
+      let found = 0
+      for (const info of info_list) {
+        var value = $('#tahun').val()
+        if (info.tahun == value) {
+          fields.forEach(field => {
+            $(`[name=${field}]`).val(info[field]);
+          });
+          found = 1
+        }
+        $(`[name='submit']`).html("save edit");
+        $(`[name='submit']`).val("edit");
+      }
+      if (found == 0){
+        fields.forEach(field => {
+          $(`[name=${field}]`).val("");
+        });
+        $(`[name='submit']`).html("save tambah");
+        $(`[name='submit']`).val("tambah");
+      }
+    }
+    change()
+    $('#tahun').on('change', function () {
+      change();
+    });
+      function sort_tahun() {
+        var selectElement = document.getElementById('tahun');
+        var optionsArray = Array.from(selectElement.options);
+        optionsArray.sort(function (a, b) {
+          return a.value - b.value;
+        });
+        selectElement.innerHTML = '';
+        optionsArray.forEach(function (option) {
+          selectElement.appendChild(option);
+        });
+        change();
+      }
+      $('#tambah_tahun').on('click', function (){
+        var selectElement = document.getElementById('tahun');
+        var Option = document.createElement('option');
+        var tahun_baru = $('#tahun_baru').val()
+        Option.value = tahun_baru;
+        Option.text = tahun_baru;
+        selectElement.add(Option);
+        sort_tahun()
+    });
+    sort_tahun()
+    $('#kirim').on('click', function (){
+      let formData = new FormData();
+      fields.forEach(function (field) {
+        var value = $(`[name=${field}]`).val();
+        formData.append(field, value);
+      });
+      var value = $('#tahun').val()
+      formData.append('selected_tahun', value);
+      var submit = $(`[name='submit']`).val();
+      if (submit == "edit"){
+      $.ajax({
+        url: "/admin/edit_mono",
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+        method: 'PUT',
+        type: 'PUT',           
+        headers: {
+          'Authorization': 'Bearer ' +  "{{ session['jwt_token'] }}"
+      },
+      }).done(function(response) {
+        handleResponse(response,"edit","/admin/monografi");
+      }).fail(function(error) {
+        console.error(error);
+      });
+    }
+    else if(submit=="tambah"){
+      $.ajax({
+        url: "/admin/tambah_mono",
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+        method: 'POST',
+        type: 'POST', 
+        headers: {
+          'Authorization': 'Bearer ' + "{{ session['jwt_token'] }}"
+      },
+      }).done(function(response) {
+        handleResponse(response,"tambah","/admin/monografi");
+      }).fail(function(error) {
+        console.error(error);
+      });
+    }
+    else{
+      alert("error");
+    }
+    });
+  });
+  </script>
+  <script>
+    function hapusMono() {
+      var result = confirm("Apakah Anda yakin?");
+      if (result) {
+        var value = $('[name=id]').val()
+          $.ajax({
+            url: '/admin/hapus_mono',
+            method: 'DELETE',
+            headers: {
+              'Authorization': 'Bearer ' + "{{ session['jwt_token'] }}"
+          },
+            data: { id: value },
+            dataType: 'json',
+          }).done(function(response) {
+            handleResponse(response, "menghapus", "/admin/monografi");
+          }).fail(function(error) {
+            console.error(error);
+          });
+        }
+      }
+   </script>
+  {% endblock %}

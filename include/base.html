@@ -1,0 +1,503 @@
+<html dir="ltr" lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Sistem Desa Pangkah</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://rizky-phb.github.io/deploy_template/custom/image/logo_ico.png" />   
+    <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/quill/dist/quill.snow.css" />
+    <!-- fix ck editor -->
+    <style>
+      .ql-align-right{
+        text-align:right;
+      }
+      .ql-align-left{
+        text-align:left;
+      }
+      .ql-align-center{
+        text-align:center
+      }
+      .ql-align-justify{
+        text-align:justify
+      }
+    </style>    
+  <!-- Table -->
+  <link
+  href="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/datatables.net-bs4/css/dataTables.bootstrap4.css"
+  rel="stylesheet">
+    
+    <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/taskboard/js/jquery-ui.min.js"></script>
+    <style type="text/css">
+      .text-yellow {
+        color: #ffff00 !important;
+      }
+    </style>
+    <style type="text/css">
+      .jqstooltip {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        visibility: hidden;
+        background: rgb(0, 0, 0) transparent;
+        background-color: rgba(0, 0, 0, 0.6);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+        color: white;
+        font: 10px arial, san serif;
+        text-align: left;
+        white-space: nowrap;
+        padding: 5px;
+        border: 1px solid white;
+        z-index: 10000;
+      }
+
+      .jqsfield {
+        color: white;
+        font: 10px arial, san serif;
+        text-align: left;
+      }
+      
+      /* Style for user's message */
+      .user-message {
+        text-align: right;
+        color: white;
+        background-color: blue;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+        border-bottom-right-radius: 0px;
+        display: inline-block;
+        align-self: flex-end; /* Let user's message align to the right */
+      }
+    
+      /* Style for bot's message */
+      .bot-message {
+        text-align: left;
+        color: white;
+        background-color: green;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        display: inline-block;
+        align-self: flex-start; /* Let bot's message align to the left */
+      }
+    
+      /* Flex container for chat messages */
+      #chatMessages {
+        display: flex;
+        flex-direction: column; /* Stack messages vertically */
+      }
+      /* CSS */
+      .floating-button {
+        position: fixed;
+        z-index:99999;
+        bottom: 20px; /* Atur sesuai dengan posisi vertikal yang diinginkan */
+        right: 20px; /* Atur sesuai dengan posisi horizontal yang diinginkan */
+        border: none;
+        padding: 15px 25px; /* Padding untuk meningkatkan area klik */
+        border-radius: 50%; /* Agar tombol berbentuk lingkaran */
+        font-size: 16px;
+        cursor: pointer;
+        /* Tambahkan efek hover jika diinginkan */
+        transition: background-color 0.3s ease;
+      }
+      .Bot-time {
+        float: left;
+        margin: 5px;
+        text-align: left;
+        display: inline-block;
+        align-self: flex-start; /* Let bot's message align to the left */
+      }
+      .You-time {
+        float: right;
+        margin: 5px;
+        text-align: right;
+        display: inline-block;
+        align-self: flex-end; /* Let user's message align to the right */
+      }
+      .chat-time {
+        font-size: 12px;
+        color: #888;
+        margin-top: 5px;
+      }
+      .dropdown-item:active {
+        background-color: #fff;
+        color:#6c757d;
+      }
+      /*fix style agenda*/
+      .fc-event{
+      color: #67757c ;
+      }
+      .berita {
+        display: flex;
+      }
+      .gambar-berita {
+        width: 300px; 
+        height: 200px;
+      }
+      .profile {
+        display: flex;
+      }
+      .gambar-profile {
+        max-width: 200px;
+      }
+      @media (max-width: 640px) {
+        .berita {
+          display: block;
+        }
+        .gambar-berita{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .profile {
+          display: block;
+        }
+        .gambar-profile{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        .geo{
+          text-align:left!important;
+        }
+      }
+      .loading {
+        display: inline-block;
+        background-color: #f8f9fa;
+        color: #6c757d;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .dropdown-menu{
+      padding-bottom:0px;
+    }
+    </style>
+      <?xml version="1.0" encoding="UTF-8"?>
+      <meta name="description" content="Tentang Desa Pangkah: Desa Pangkah merupakan desa yang memberi pelayanan publik secara cepat dan efisien. Dengan mengedepankan pelayanan dan pengolahan data berbasis IT, Desa Pangkah diharapkan dapat berkembang menjadi yang lebih maju dalam berbagai aspek baik itu SDM, Kesehatan, Kesejahteraan dan Ekonomi. Dengan Portal Desa Digital semua pelayanan menjadi lebih baik.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="Sistem Informasi Desa Pangkah">
+      <meta property="og:description" content="Tentang Desa Pangkah: Desa Pangkah merupakan desa yang memberi pelayanan publik secara cepat dan efisien. Dengan mengedepankan pelayanan dan pengolahan data berbasis IT, Desa Pangkah diharapkan dapat berkembang menjadi yang lebih maju dalam berbagai aspek baik itu SDM, Kesehatan, Kesejahteraan dan Ekonomi. Dengan Portal Desa Digital semua pelayanan menjadi lebih baik.">
+      <meta property="og:image" content="https://desapangkah.com/static/image/logo_ico.png">
+      <meta property="og:url" content="https://desapangkah.com">
+      <script type="application/ld+json">
+         {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Sistem Informasi Desa Pangkah",
+          "url": "http://www.desapangkah.com",
+          "logo": "http://www.desapangkah.com/static/image/logo_ico.png",
+          "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "pemdespangkah@gmail.com",
+              "contactType": "customer service"
+          }
+      }
+      </script>
+    {% block head %}{% endblock %}
+  </head>
+
+  <body style="background-color: #e6f4ff">
+    <!-- ============================================================= -->
+    <!-- Topbar header - style you can find in pages.scss -->
+    <!-- ============================================================= -->
+    <header class="topbar" data-navbarbg="skin6"style="background-color:#fff">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#fff">
+        <div class="container" style="">
+          <a class="navbar-brand d-flex " href="#">
+            
+          <img
+            src="https://rizky-phb.github.io/deploy_template/custom/image/logo.png"
+            alt="logo-icon"
+            style="max-height: 40px;"
+          />
+          <p style="margin-top:15px">
+            Desa Pangkah
+          </P>
+        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <!-- Untuk item Berita -->
+              <li class="nav-item">
+                <a href="/news" class="nav-link">Berita</a>
+              </li>
+              <!-- Untuk item Profil Desa -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProfilDesa" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Profil Desa
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownProfilDesa">
+                  <a class="dropdown-item" href="/sejarah">SEJARAH & MONOGRAFI DESA</a>
+                  <a class="dropdown-item" href="/video">VIDEO PROFIL DESA</a>
+                </div>
+              </li>
+              <!-- Untuk item Pemerintahan -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPemerintahan" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Pemerintahan
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownPemerintahan">
+                  <a class="dropdown-item" href="/visi_misi">VISI DAN MISI</a>
+                  <a class="dropdown-item" href="/pemerintahan_desa">PEMERINTAH DESA</a>
+                  <a class="dropdown-item" href="/bpd">BADAN PERMUSYAWARATAN DESA</a>
+                </div>
+              </li>
+              <!-- Untuk item Dana Desa -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDanaDesa" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dana Desa
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownDanaDesa">
+                  {% for data in session.list_thn_dana %}
+                    <a class="dropdown-item" href="/dana/{{ data.tahun }}">TAHUN ANGGARAN {{ data.tahun }}</a>
+                  {% endfor %}
+                </div>
+              </li>
+              <!-- Untuk item Peta Desa -->
+              <li class="nav-item">
+                <a href="https://www.google.com/maps/place/Pangkah,+Tegal+Regency,+Central+Java/@-6.981731,109.15958,15z/data=!4m6!3m5!1s0x2e6fbf7326f79acf:0xb8e2ae524ec7f3c8!8m2!3d-6.9803518!4d109.1627343!16s%2Fg%2F122t1938?entry=ttu" class="nav-link">Peta Desa</a>
+              </li>
+              <!-- Untuk item Data Desa -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDataDesa" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Data Desa
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownDataDesa">
+                  <a class="dropdown-item" href="/monografi">DATA MONOGRAFI</a>
+                  <a class="dropdown-item" href="/geografi">DATA GEOGRAFI</a>
+                </div>
+              </li>
+              <!-- Untuk item Galeri Foto -->
+              <li class="nav-item">
+                <a href="/galeri" class="nav-link">Galeri Foto</a>
+              </li>
+              <!-- Untuk item Agenda Kegiatan -->
+              <li class="nav-item">
+                <a href="/agenda" class="nav-link">Agenda Kegiatan</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+    </header>
+
+    {% block content %} {% endblock content %}
+    <button type="button" class="btn btn-primary floating-button" data-toggle="modal" data-target="#chatModal" onclick="set_time()">
+      <i data-feather="message-square"></i>
+      <div class="notify">
+        <span class="point bg-warning"></span>
+      </div>
+    </button>
+    <div class="container-fluid row">
+      <h1 class="mb-0 fw-bold">Peta Wilayah Desa</h1>
+      <div class="col-lg-12"></div>
+    </div>
+    <iframe
+      style="margin-top: 32px"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15840.934627434102!2d109.15958!3d-6.981731!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6fbf7326f79acf%3A0xb8e2ae524ec7f3c8!2sPangkah%2C%20Tegal%20Regency%2C%20Central%20Java!5e0!3m2!1sen!2sid!4v1697634290283!5m2!1sen!2sid"
+      width="100%"
+      height="400px"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+
+    <footer class="footer">
+      <div class="footer">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-left">
+                <div class="footer-title">Tentang Desa Pangkah</div>
+                <p style="text-align: justify">
+                  Desa Pangkah merupakan desa yang memberi pelayanan publik
+                  secara cepat dan efisien. Dengan mengedepankan pelayanan dan
+                  pengolahan data berbasis IT, Desa Pangkah diharapkan dapat
+                  berkembang menjadi yang lebih maju dalam berbagai aspek baik
+                  itu SDM, Kesehatan, Kesejahteraan dan Ekonomi. Dengan Portal
+                  Desa Digital semua pelayanan menjadi lebih baik.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-center">
+                <div class="logo-footer">
+                  <a href="#" target="_blank"
+                    ><img
+                      src="https://rizky-phb.github.io/deploy_template/custom/image/logo.png"
+                      alt="Logo Desa"
+                      width="100"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="footer-right">
+                <div class="footer-title">Kontak Desa Pangkah</div>
+                <ul style="list-style: none">
+                  <li style="text-align: left">
+                    <i class="fa fa-map-marker"></i> &nbsp;Jl. Dukuh Benda No.10, Benda, Pangkah, Kec. Pangkah, Kabupaten Tegal, Jawa Tengah 52471
+                  </li>
+                  <li style="text-align: left">
+                    <i class="fa fa-phone"></i> &nbsp;Telepon :
+                  </li>
+                  <li style="text-align: left">
+                    <i class="fa fa-envelope"></i> Email :
+                    pemdespangkah@gmail.com
+                  </li>
+                  <li style="text-align: left">
+                    <i class="fa fa-globe"></i> &nbsp;https://desapangkah.com
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal" id="chatModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <div class="modal-header">
+                  <h4 class="modal-title">Chat Bot</h4>
+                  <button type="button" class="close" aria-label="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <div class="modal-body">
+                  <div id="chatMessages" class="pre-scrollable" style="max-height:350px; margin-bottom:20px;">
+                    <div class="bot-message " style="border-bottom-left-radius: 0px;"><strong>Bot:</strong>ada yang bsa saya bantu?</div>
+                    <div class="Bot-time chat-time"id="welcome-time"></div>
+                  </div>
+                  <input type="text"  id="userMessage"  class="form-control" placeholder="ketik pesan...">
+                  <button type="button" class="btn btn-primary mt-2" id="sendMessage">Send</button>
+                </div>
+                
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary " aria-label="close" data-dismiss="modal">Close</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+        <script>
+          function set_time(){
+            const currentTime = new Date(); 
+            $('#welcome-time').html(`${currentTime.getHours()}:${currentTime.getMinutes()}`)
+          }
+          $(document).ready(function () {
+            // Initial message from the bot
+          
+
+            $("#sendMessage").click(function () {
+              $("#sendMessage").html('Loading...')
+              sendtoserver();
+            });
+            $("#userMessage").keypress(function (event) {
+              if (event.which == 13) {
+                $("#sendMessage").html('Loading..')
+                sendtoserver();
+              }
+            });
+            function sendtoserver() {
+              // Tampilkan efek loading
+          
+              // Dapatkan pesan pengguna
+              var userMessage = $("#userMessage").val();
+          
+              // Append pesan pengguna ke obrolan dengan kelas user-message
+              appendMessage("You", userMessage, 'user-message');
+          
+              // Bersihkan bidang input
+              $("#userMessage").val("");
+          
+              // Kirim pesan pengguna ke server melalui AJAX
+              $.ajax({
+                  type: "GET",
+                  url: "https://desapangkah.com/chatbot/get?msg=" + userMessage,
+                  success: function (response) {
+                      // Sembunyikan efek loading
+                      $("#sendMessage").html('Send');
+          
+                      // Tambahkan respons bot ke obrolan
+                      appendMessage("Bot", response, 'bot-message');
+                  },
+                  error: function () {
+                      // Sembunyikan efek loading
+                      $("#sendMessage").html('Send');
+          
+                      appendMessage("Bot", "Server Error.");
+                  },
+              });
+          }
+          
+            function appendMessage(sender, message, messageClass) {
+                const currentTime = new Date(); 
+                var messageHTML = `<div class="${messageClass} "><strong>${sender}:</strong> ${message}</div><div class="${sender}-time chat-time">${currentTime.getHours()}:${currentTime.getMinutes()}</div>`;
+                $("#chatMessages").append(messageHTML);
+              }
+          });
+        </script>
+
+        <div class="footer-bottom">
+          <div class="social-footer">
+            <a></a>
+          </div>
+        </div>
+      </div>
+      <p id='copyright'></p>
+    </footer>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/app.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/app.init.stylish.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/waves.js"></script>
+    <!--Custom JavaScript -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/custom.min.js"></script>
+    <!-- This Page JS -->
+    <!-- Quill editor -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/quill/dist/quill.min.js"></script>
+    <!-- Table -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <!-- page agenda js-->
+
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/moment/min/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    {% block js %}{% endblock js %}
+    <script>
+      var tahunSaatIni = new Date().getFullYear();
+      document.getElementById('copyright').innerHTML = tahunSaatIni + " © All Rights Reserved";
+  </script>
+  
+  </body>
+</html>

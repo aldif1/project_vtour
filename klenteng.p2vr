@@ -92,7 +92,7 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-347.7</pan>
+            <pan>-348.08</pan>
             <tilt>-3.42</tilt>
             <fov>10</fov>
           </position>
@@ -104,7 +104,9 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <linktype>node</linktype>
+          <title>gerbang utama ditutup</title>
+          <description>lewat pintu sebelah kiri &lt;== </description>
+          <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
@@ -205,8 +207,8 @@
             <fov>10</fov>
           </position>
           <next>
-            <pan>-159.7</pan>
-            <tilt>-7</tilt>
+            <pan>-137.7</pan>
+            <tilt>-2</tilt>
             <fov>54</fov>
           </next>
           <polygon/>
@@ -214,8 +216,8 @@
           <id>Point01</id>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node3}</url>
-          <target>-159.7/-7.0/54.0</target>
+          <url>{node15}</url>
+          <target>-137.7/-2.0/54.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -593,6 +595,31 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-261.71</pan>
+            <tilt>-0.97</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point09</id>
+          <title>gerbang utama</title>
+          <description>ditutup </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -796,6 +823,31 @@
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
           <target>117.7/12.2/47.9</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-88.81</pan>
+            <tilt>0.65</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point09</id>
+          <title>gerbang utama</title>
+          <description>ditutup </description>
+          <linktype>info</linktype>
+          <linksubtype>unknown</linksubtype>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -2159,6 +2211,29 @@
           <linksubtype>unknown</linksubtype>
           <url>{node16}</url>
           <target>0.0/0.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-343.56</pan>
+            <tilt>-3.3</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>

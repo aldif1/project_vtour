@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="6.1.13" rev="18080">
+<pano2vrconfig rev="18080" version="6.1.13">
   <tour>
     <panorama>
       <input>
@@ -25,9 +25,35 @@
         <altitude>27.7</altitude>
         <datetime>2024:07:28 16:32:44</datetime>
         <tags>image_360</tags>
+        <title>kota lama 1</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-239.48</pan>
+            <tilt>-7.42</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -36,7 +62,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>88.13</pan>
+            <tilt>-20.23</tilt>
+            <fov>34.38</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>0</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_163245_046_patch.psd</filename>
+            <type>blurcircle</type>
+            <blurintensity>50</blurintensity>
+            <lastmodified>2024-08-06T13:12:43</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_163245_046.jpg</filename>
         <videotype>equi</videotype>
@@ -57,9 +98,60 @@
         <altitude>27.8</altitude>
         <datetime>2024:07:28 16:33:04</datetime>
         <tags>image_360</tags>
+        <title>kota lama 2</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-10.15</pan>
+            <tilt>-3.74</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-64.4</pan>
+            <tilt>-0.4</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <target>-64.4/-0.4/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-269.28</pan>
+            <tilt>-3.47</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -89,6 +181,8 @@
         <altitude>28.4</altitude>
         <datetime>2024:07:28 16:33:25</datetime>
         <tags>image_360</tags>
+        <title>kota lama 3</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -121,6 +215,8 @@
         <altitude>28.4</altitude>
         <datetime>2024:07:28 16:33:45</datetime>
         <tags>image_360</tags>
+        <title>kota lama 4</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -153,6 +249,8 @@
         <altitude>26.2</altitude>
         <datetime>2024:07:28 16:34:03</datetime>
         <tags>image_360</tags>
+        <title>kota lama 5</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -185,6 +283,8 @@
         <altitude>29.3</altitude>
         <datetime>2024:07:28 16:34:23</datetime>
         <tags>image_360</tags>
+        <title>kota lama 6</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -217,9 +317,35 @@
         <altitude>29.7</altitude>
         <datetime>2024:07:28 16:34:46</datetime>
         <tags>image_360</tags>
+        <title>kota lama 7</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-253.73</pan>
+            <tilt>-11.01</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -249,6 +375,8 @@
         <altitude>29.6</altitude>
         <datetime>2024:07:28 16:35:06</datetime>
         <tags>image_360</tags>
+        <title>kota lama 8</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -281,6 +409,8 @@
         <altitude>27.4</altitude>
         <datetime>2024:07:28 16:35:30</datetime>
         <tags>image_360</tags>
+        <title>kota lama 9</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -313,6 +443,8 @@
         <altitude>4.6</altitude>
         <datetime>2024:07:28 16:35:53</datetime>
         <tags>image_360</tags>
+        <title>kota lama 10</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -345,6 +477,8 @@
         <altitude>29.6</altitude>
         <datetime>2024:07:28 16:36:21</datetime>
         <tags>image_360</tags>
+        <title>kota lama 11</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -377,6 +511,8 @@
         <altitude>37.5</altitude>
         <datetime>2024:07:28 16:36:47</datetime>
         <tags>image_360</tags>
+        <title>kota lama 12</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -409,6 +545,8 @@
         <altitude>39</altitude>
         <datetime>2024:07:28 16:37:16</datetime>
         <tags>image_360</tags>
+        <title>kota lama 13</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -441,6 +579,8 @@
         <altitude>40.2</altitude>
         <datetime>2024:07:28 16:37:42</datetime>
         <tags>image_360</tags>
+        <title>kota lama 14</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -473,6 +613,8 @@
         <altitude>38.3</altitude>
         <datetime>2024:07:28 16:38:05</datetime>
         <tags>image_360</tags>
+        <title>kota lama 15</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -505,6 +647,8 @@
         <altitude>36.4</altitude>
         <datetime>2024:07:28 16:38:31</datetime>
         <tags>image_360</tags>
+        <title>kota lama 16</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -537,6 +681,8 @@
         <altitude>35.9</altitude>
         <datetime>2024:07:28 16:38:55</datetime>
         <tags>image_360</tags>
+        <title>kota lama 17</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -569,6 +715,8 @@
         <altitude>36.9</altitude>
         <datetime>2024:07:28 16:39:22</datetime>
         <tags>image_360</tags>
+        <title>kota lama 18</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -601,6 +749,8 @@
         <altitude>38.7</altitude>
         <datetime>2024:07:28 16:39:46</datetime>
         <tags>image_360</tags>
+        <title>kota lama 19</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -633,6 +783,8 @@
         <altitude>35.5</altitude>
         <datetime>2024:07:28 16:40:05</datetime>
         <tags>image_360</tags>
+        <title>kota lama 20</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -665,6 +817,8 @@
         <altitude>34.8</altitude>
         <datetime>2024:07:28 16:40:23</datetime>
         <tags>image_360</tags>
+        <title>kota lama 21</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -697,6 +851,8 @@
         <altitude>52.5</altitude>
         <datetime>2024:07:28 16:40:50</datetime>
         <tags>image_360</tags>
+        <title>kota lama 22</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -729,6 +885,8 @@
         <altitude>66.3</altitude>
         <datetime>2024:07:28 16:41:33</datetime>
         <tags>image_360</tags>
+        <title>kota lama 23</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -761,46 +919,67 @@
         <altitude>86.8</altitude>
         <datetime>2024:07:28 16:42:01</datetime>
         <tags>image_360</tags>
+        <title>kotaa lamaa 24</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-166.91</pan>
+            <tilt>-4.58</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>28.2</pan>
+            <tilt>7.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node26}</url>
+          <target>28.2/7.5/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-146.1</pan>
+            <tilt>-4.88</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-171.5</pan>
+            <tilt>15.2</tilt>
+            <fov>58.2</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node27}</url>
+          <target>-171.5/15.2/58.2</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <sounds/>
       <id>node25</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164202_036.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:42:32</capturedatetime>
-        <latitude>-6.981175</latitude>
-        <longitude>110.402586</longitude>
-        <altitude>25.8</altitude>
-        <datetime>2024:07:28 16:42:31</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node26</id>
     </panorama>
     <panorama>
       <input>
@@ -825,6 +1004,173 @@
         <altitude>36.2</altitude>
         <datetime>2024:07:28 16:42:57</datetime>
         <tags>image_360</tags>
+        <title>unisbank</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-88.19</pan>
+            <tilt>-3.1</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-143.6</pan>
+            <tilt>7.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node26}</url>
+          <target>-143.6/7.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-104.06</pan>
+            <tilt>-1.85</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node25}</url>
+          <target>0.0/0.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node27</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164202_036.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:42:32</capturedatetime>
+        <latitude>-6.981175</latitude>
+        <longitude>110.402586</longitude>
+        <altitude>25.8</altitude>
+        <datetime>2024:07:28 16:42:31</datetime>
+        <tags>image_360</tags>
+        <title>tugu adipura</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-268.77</pan>
+            <tilt>-2</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>19.3</pan>
+            <tilt>-2.7</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node25}</url>
+          <target>19.3/-2.7/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-281.74</pan>
+            <tilt>-4.35</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-165.5</pan>
+            <tilt>10.3</tilt>
+            <fov>63.9</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node27}</url>
+          <target>-165.5/10.3/63.9</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node26</id>
+    </panorama>
+    <start>node2</start>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_163743_166.png</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-08-06T11:31:56</capturedatetime>
+        <tags>image_360</tags>
       </userdata>
       <floorplans/>
       <hotspots/>
@@ -832,9 +1178,36 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node27</id>
+      <id>node29</id>
     </panorama>
-    <start>node2</start>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/upscaled_20240728_163743_166-Photoroom.png</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-08-06T12:59:10</capturedatetime>
+        <tags>image_360</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots/>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node30</id>
+    </panorama>
   </tour>
   <panorama>
     <id>master</id>
@@ -857,7 +1230,7 @@
           <enabled>1</enabled>
           <filename>../kota_lama/index.html</filename>
           <values>
-            <value id="css"></value>
+            <value id="css"/>
             <value id="fitcover">false</value>
             <value id="gginfo">false</value>
             <value id="htmltitle">$(upt)</value>
@@ -878,6 +1251,7 @@
         <webvr/>
         <tilesize>2000</tilesize>
         <filename>../kota_lama/pano.xml</filename>
+        <skinfile>$d/skin/simplex_v7.ggsk</skinfile>
       </htmlcss>
     </output>
     <streetview/>
@@ -885,7 +1259,6 @@
     <sounds/>
     <animation>
       <title>Animation01</title>
-      <sequence/>
     </animation>
   </panorama>
 </pano2vrconfig>
