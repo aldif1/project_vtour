@@ -6,7 +6,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164653_685.jpg</filename>
+        <filename>image_360/20240728_165019_856.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -19,11 +19,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:03</capturedatetime>
-        <latitude>-7.037700</latitude>
-        <longitude>110.347789</longitude>
-        <altitude>182.3</altitude>
-        <datetime>2024:07:28 16:47:03</datetime>
+        <capturedatetime>2024-07-28T16:50:26</capturedatetime>
+        <latitude>-7.041628</latitude>
+        <longitude>110.353483</longitude>
+        <altitude>185</altitude>
+        <datetime>2024:07:28 16:50:26</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -32,13 +32,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node2</id>
+      <id>node30</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164653_685.jpg</filename>
+        <filename>image_360/20240728_165006_383.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -51,11 +51,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:03</capturedatetime>
-        <latitude>-7.037700</latitude>
-        <longitude>110.347789</longitude>
-        <altitude>182.3</altitude>
-        <datetime>2024:07:28 16:47:03</datetime>
+        <capturedatetime>2024-07-28T16:50:13</capturedatetime>
+        <latitude>-7.041758</latitude>
+        <longitude>110.353306</longitude>
+        <altitude>184.6</altitude>
+        <datetime>2024:07:28 16:50:13</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -64,13 +64,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node5</id>
+      <id>node28</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164703_889.jpg</filename>
+        <filename>image_360/20240728_164959_405.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -83,11 +83,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:12</capturedatetime>
-        <latitude>-7.037958</latitude>
-        <longitude>110.347919</longitude>
-        <altitude>186.3</altitude>
-        <datetime>2024:07:28 16:47:12</datetime>
+        <capturedatetime>2024-07-28T16:50:06</capturedatetime>
+        <latitude>-7.041353</latitude>
+        <longitude>110.352628</longitude>
+        <altitude>177.8</altitude>
+        <datetime>2024:07:28 16:50:05</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -96,13 +96,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node6</id>
+      <id>node27</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164713_069.jpg</filename>
+        <filename>image_360/20240728_164952_685.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -115,11 +115,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:22</capturedatetime>
-        <latitude>-7.038247</latitude>
-        <longitude>110.348128</longitude>
-        <altitude>182.6</altitude>
-        <datetime>2024:07:28 16:47:22</datetime>
+        <capturedatetime>2024-07-28T16:49:59</capturedatetime>
+        <latitude>-7.041331</latitude>
+        <longitude>110.352278</longitude>
+        <altitude>177.8</altitude>
+        <datetime>2024:07:28 16:49:59</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -128,13 +128,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node7</id>
+      <id>node26</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164722_438.jpg</filename>
+        <filename>image_360/20240728_164946_078.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -147,11 +147,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:31</capturedatetime>
-        <latitude>-7.038494</latitude>
-        <longitude>110.348375</longitude>
-        <altitude>190</altitude>
-        <datetime>2024:07:28 16:47:31</datetime>
+        <capturedatetime>2024-07-28T16:49:52</capturedatetime>
+        <latitude>-7.041169</latitude>
+        <longitude>110.352289</longitude>
+        <altitude>180.7</altitude>
+        <datetime>2024:07:28 16:49:52</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -160,13 +160,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node8</id>
+      <id>node25</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164731_648.jpg</filename>
+        <filename>image_360/20240728_164939_630.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -179,11 +179,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:39</capturedatetime>
-        <latitude>-7.038617</latitude>
-        <longitude>110.348750</longitude>
-        <altitude>194.6</altitude>
-        <datetime>2024:07:28 16:47:39</datetime>
+        <capturedatetime>2024-07-28T16:49:45</capturedatetime>
+        <latitude>-7.041386</latitude>
+        <longitude>110.351761</longitude>
+        <altitude>177</altitude>
+        <datetime>2024:07:28 16:49:45</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -192,13 +192,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node9</id>
+      <id>node24</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164740_070.jpg</filename>
+        <filename>image_360/20240728_164933_087.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -211,11 +211,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:48</capturedatetime>
-        <latitude>-7.038700</latitude>
-        <longitude>110.348936</longitude>
-        <altitude>195.6</altitude>
-        <datetime>2024:07:28 16:47:48</datetime>
+        <capturedatetime>2024-07-28T16:49:39</capturedatetime>
+        <latitude>-7.041050</latitude>
+        <longitude>110.351644</longitude>
+        <altitude>183.2</altitude>
+        <datetime>2024:07:28 16:49:39</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -224,13 +224,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node10</id>
+      <id>node23</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164748_628.jpg</filename>
+        <filename>image_360/20240728_164924_458.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -243,11 +243,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:47:56</capturedatetime>
-        <latitude>-7.038744</latitude>
-        <longitude>110.349172</longitude>
-        <altitude>200.6</altitude>
-        <datetime>2024:07:28 16:47:56</datetime>
+        <capturedatetime>2024-07-28T16:49:32</capturedatetime>
+        <latitude>-7.038525</latitude>
+        <longitude>110.351294</longitude>
+        <altitude>216.4</altitude>
+        <datetime>2024:07:28 16:49:32</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -256,13 +256,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node11</id>
+      <id>node22</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164757_044.jpg</filename>
+        <filename>image_360/20240728_164915_811.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -275,11 +275,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:48:05</capturedatetime>
-        <latitude>-7.038828</latitude>
-        <longitude>110.349764</longitude>
-        <altitude>203.1</altitude>
-        <datetime>2024:07:28 16:48:04</datetime>
+        <capturedatetime>2024-07-28T16:49:24</capturedatetime>
+        <latitude>-7.038486</latitude>
+        <longitude>110.351275</longitude>
+        <altitude>216.7</altitude>
+        <datetime>2024:07:28 16:49:24</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -288,13 +288,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node12</id>
+      <id>node21</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164805_242.jpg</filename>
+        <filename>image_360/20240728_164906_658.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -307,11 +307,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:48:13</capturedatetime>
-        <latitude>-7.038731</latitude>
-        <longitude>110.349844</longitude>
-        <altitude>201.8</altitude>
-        <datetime>2024:07:28 16:48:13</datetime>
+        <capturedatetime>2024-07-28T16:49:15</capturedatetime>
+        <latitude>-7.038717</latitude>
+        <longitude>110.351167</longitude>
+        <altitude>217.5</altitude>
+        <datetime>2024:07:28 16:49:15</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -320,13 +320,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node13</id>
+      <id>node20</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164813_674.jpg</filename>
+        <filename>image_360/20240728_164857_498.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -339,11 +339,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:48:22</capturedatetime>
-        <latitude>-7.038853</latitude>
-        <longitude>110.350219</longitude>
-        <altitude>210</altitude>
-        <datetime>2024:07:28 16:48:21</datetime>
+        <capturedatetime>2024-07-28T16:49:06</capturedatetime>
+        <latitude>-7.038906</latitude>
+        <longitude>110.351111</longitude>
+        <altitude>219</altitude>
+        <datetime>2024:07:28 16:49:06</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -352,7 +352,71 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node14</id>
+      <id>node19</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164848_816.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:48:57</capturedatetime>
+        <latitude>-7.038972</latitude>
+        <longitude>110.351139</longitude>
+        <altitude>213.5</altitude>
+        <datetime>2024:07:28 16:48:57</datetime>
+        <tags>image_360</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots/>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node18</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164839_625.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:48:48</capturedatetime>
+        <latitude>-7.038886</latitude>
+        <longitude>110.350672</longitude>
+        <altitude>214.3</altitude>
+        <datetime>2024:07:28 16:48:48</datetime>
+        <tags>image_360</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots/>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node17</id>
     </panorama>
     <panorama>
       <input>
@@ -422,7 +486,7 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164839_625.jpg</filename>
+        <filename>image_360/20240728_164813_674.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -435,11 +499,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:48:48</capturedatetime>
-        <latitude>-7.038886</latitude>
-        <longitude>110.350672</longitude>
-        <altitude>214.3</altitude>
-        <datetime>2024:07:28 16:48:48</datetime>
+        <capturedatetime>2024-07-28T16:48:22</capturedatetime>
+        <latitude>-7.038853</latitude>
+        <longitude>110.350219</longitude>
+        <altitude>210</altitude>
+        <datetime>2024:07:28 16:48:21</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -448,13 +512,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node17</id>
+      <id>node14</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164848_816.jpg</filename>
+        <filename>image_360/20240728_164805_242.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -467,11 +531,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:48:57</capturedatetime>
-        <latitude>-7.038972</latitude>
-        <longitude>110.351139</longitude>
-        <altitude>213.5</altitude>
-        <datetime>2024:07:28 16:48:57</datetime>
+        <capturedatetime>2024-07-28T16:48:13</capturedatetime>
+        <latitude>-7.038731</latitude>
+        <longitude>110.349844</longitude>
+        <altitude>201.8</altitude>
+        <datetime>2024:07:28 16:48:13</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -480,13 +544,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node18</id>
+      <id>node13</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164857_498.jpg</filename>
+        <filename>image_360/20240728_164757_044.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -499,11 +563,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:06</capturedatetime>
-        <latitude>-7.038906</latitude>
-        <longitude>110.351111</longitude>
-        <altitude>219</altitude>
-        <datetime>2024:07:28 16:49:06</datetime>
+        <capturedatetime>2024-07-28T16:48:05</capturedatetime>
+        <latitude>-7.038828</latitude>
+        <longitude>110.349764</longitude>
+        <altitude>203.1</altitude>
+        <datetime>2024:07:28 16:48:04</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -512,13 +576,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node19</id>
+      <id>node12</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164906_658.jpg</filename>
+        <filename>image_360/20240728_164748_628.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -531,11 +595,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:15</capturedatetime>
-        <latitude>-7.038717</latitude>
-        <longitude>110.351167</longitude>
-        <altitude>217.5</altitude>
-        <datetime>2024:07:28 16:49:15</datetime>
+        <capturedatetime>2024-07-28T16:47:56</capturedatetime>
+        <latitude>-7.038744</latitude>
+        <longitude>110.349172</longitude>
+        <altitude>200.6</altitude>
+        <datetime>2024:07:28 16:47:56</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -544,13 +608,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node20</id>
+      <id>node11</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164915_811.jpg</filename>
+        <filename>image_360/20240728_164740_070.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -563,11 +627,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:24</capturedatetime>
-        <latitude>-7.038486</latitude>
-        <longitude>110.351275</longitude>
-        <altitude>216.7</altitude>
-        <datetime>2024:07:28 16:49:24</datetime>
+        <capturedatetime>2024-07-28T16:47:48</capturedatetime>
+        <latitude>-7.038700</latitude>
+        <longitude>110.348936</longitude>
+        <altitude>195.6</altitude>
+        <datetime>2024:07:28 16:47:48</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -576,13 +640,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node21</id>
+      <id>node10</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164924_458.jpg</filename>
+        <filename>image_360/20240728_164731_648.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -595,11 +659,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:32</capturedatetime>
-        <latitude>-7.038525</latitude>
-        <longitude>110.351294</longitude>
-        <altitude>216.4</altitude>
-        <datetime>2024:07:28 16:49:32</datetime>
+        <capturedatetime>2024-07-28T16:47:39</capturedatetime>
+        <latitude>-7.038617</latitude>
+        <longitude>110.348750</longitude>
+        <altitude>194.6</altitude>
+        <datetime>2024:07:28 16:47:39</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -608,13 +672,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node22</id>
+      <id>node9</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164933_087.jpg</filename>
+        <filename>image_360/20240728_164722_438.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -627,11 +691,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:39</capturedatetime>
-        <latitude>-7.041050</latitude>
-        <longitude>110.351644</longitude>
-        <altitude>183.2</altitude>
-        <datetime>2024:07:28 16:49:39</datetime>
+        <capturedatetime>2024-07-28T16:47:31</capturedatetime>
+        <latitude>-7.038494</latitude>
+        <longitude>110.348375</longitude>
+        <altitude>190</altitude>
+        <datetime>2024:07:28 16:47:31</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -640,13 +704,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node23</id>
+      <id>node8</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164939_630.jpg</filename>
+        <filename>image_360/20240728_164713_069.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -659,11 +723,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:45</capturedatetime>
-        <latitude>-7.041386</latitude>
-        <longitude>110.351761</longitude>
-        <altitude>177</altitude>
-        <datetime>2024:07:28 16:49:45</datetime>
+        <capturedatetime>2024-07-28T16:47:22</capturedatetime>
+        <latitude>-7.038247</latitude>
+        <longitude>110.348128</longitude>
+        <altitude>182.6</altitude>
+        <datetime>2024:07:28 16:47:22</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -672,13 +736,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node24</id>
+      <id>node7</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164946_078.jpg</filename>
+        <filename>image_360/20240728_164703_889.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -691,11 +755,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:52</capturedatetime>
-        <latitude>-7.041169</latitude>
-        <longitude>110.352289</longitude>
-        <altitude>180.7</altitude>
-        <datetime>2024:07:28 16:49:52</datetime>
+        <capturedatetime>2024-07-28T16:47:12</capturedatetime>
+        <latitude>-7.037958</latitude>
+        <longitude>110.347919</longitude>
+        <altitude>186.3</altitude>
+        <datetime>2024:07:28 16:47:12</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -704,13 +768,13 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node25</id>
+      <id>node6</id>
     </panorama>
     <panorama>
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_164952_685.jpg</filename>
+        <filename>image_360/20240728_164653_685.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
@@ -723,11 +787,11 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2024-07-28T16:49:59</capturedatetime>
-        <latitude>-7.041331</latitude>
-        <longitude>110.352278</longitude>
-        <altitude>177.8</altitude>
-        <datetime>2024:07:28 16:49:59</datetime>
+        <capturedatetime>2024-07-28T16:47:03</capturedatetime>
+        <latitude>-7.037700</latitude>
+        <longitude>110.347789</longitude>
+        <altitude>182.3</altitude>
+        <datetime>2024:07:28 16:47:03</datetime>
         <tags>image_360</tags>
       </userdata>
       <floorplans/>
@@ -736,135 +800,7 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node26</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164959_405.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:50:06</capturedatetime>
-        <latitude>-7.041353</latitude>
-        <longitude>110.352628</longitude>
-        <altitude>177.8</altitude>
-        <datetime>2024:07:28 16:50:05</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node27</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_165006_383.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:50:13</capturedatetime>
-        <latitude>-7.041758</latitude>
-        <longitude>110.353306</longitude>
-        <altitude>184.6</altitude>
-        <datetime>2024:07:28 16:50:13</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node28</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_165013_347.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:50:19</capturedatetime>
-        <latitude>-7.041658</latitude>
-        <longitude>110.353478</longitude>
-        <altitude>183.7</altitude>
-        <datetime>2024:07:28 16:50:19</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node29</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_165019_856.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:50:26</capturedatetime>
-        <latitude>-7.041628</latitude>
-        <longitude>110.353483</longitude>
-        <altitude>185</altitude>
-        <datetime>2024:07:28 16:50:26</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node30</id>
+      <id>node2</id>
     </panorama>
     <start>node2</start>
   </tour>
@@ -886,9 +822,16 @@
       <placeidcache>{"entries":[]}</placeidcache>
       <htmlcss>
         <html>
-          <values/>
           <enabled>1</enabled>
-          <filename>output/index.html</filename>
+          <filename>goa_kreo/index.html</filename>
+          <values>
+            <value id="css"></value>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
         </html>
         <facequality/>
         <transition>
@@ -902,7 +845,8 @@
         <hotspotstyle/>
         <webvr/>
         <tilesize>2000</tilesize>
-        <filename>output/pano.xml</filename>
+        <filename>goa_kreo/pano.xml</filename>
+        <skinfile>$d/skin/skin_goa_kreo_.ggsk</skinfile>
       </htmlcss>
     </output>
     <streetview/>
@@ -910,7 +854,6 @@
     <sounds/>
     <animation>
       <title>Animation01</title>
-      <sequence/>
     </animation>
   </panorama>
 </pano2vrconfig>

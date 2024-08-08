@@ -2292,7 +2292,7 @@
         <webvr/>
         <tilesize>2000</tilesize>
         <filename>SAM_PO_KONG/pano.xml</filename>
-        <skinfile>$d/skin/simplex_v7.ggsk</skinfile>
+        <skinfile>$d/skin/skin_sam_po_kong.ggsk</skinfile>
       </htmlcss>
     </output>
     <streetview/>
