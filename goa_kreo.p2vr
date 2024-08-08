@@ -6,262 +6,6 @@
       <input>
         <patch/>
         <type>auto</type>
-        <filename>image_360/20240728_165019_856.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:50:26</capturedatetime>
-        <latitude>-7.041628</latitude>
-        <longitude>110.353483</longitude>
-        <altitude>185</altitude>
-        <datetime>2024:07:28 16:50:26</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node30</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_165006_383.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:50:13</capturedatetime>
-        <latitude>-7.041758</latitude>
-        <longitude>110.353306</longitude>
-        <altitude>184.6</altitude>
-        <datetime>2024:07:28 16:50:13</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node28</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164959_405.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:50:06</capturedatetime>
-        <latitude>-7.041353</latitude>
-        <longitude>110.352628</longitude>
-        <altitude>177.8</altitude>
-        <datetime>2024:07:28 16:50:05</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node27</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164952_685.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:49:59</capturedatetime>
-        <latitude>-7.041331</latitude>
-        <longitude>110.352278</longitude>
-        <altitude>177.8</altitude>
-        <datetime>2024:07:28 16:49:59</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node26</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164946_078.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:49:52</capturedatetime>
-        <latitude>-7.041169</latitude>
-        <longitude>110.352289</longitude>
-        <altitude>180.7</altitude>
-        <datetime>2024:07:28 16:49:52</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node25</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164939_630.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:49:45</capturedatetime>
-        <latitude>-7.041386</latitude>
-        <longitude>110.351761</longitude>
-        <altitude>177</altitude>
-        <datetime>2024:07:28 16:49:45</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node24</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164933_087.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:49:39</capturedatetime>
-        <latitude>-7.041050</latitude>
-        <longitude>110.351644</longitude>
-        <altitude>183.2</altitude>
-        <datetime>2024:07:28 16:49:39</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node23</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164924_458.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:49:32</capturedatetime>
-        <latitude>-7.038525</latitude>
-        <longitude>110.351294</longitude>
-        <altitude>216.4</altitude>
-        <datetime>2024:07:28 16:49:32</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node22</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
         <filename>image_360/20240728_164915_811.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
@@ -281,9 +25,62 @@
         <altitude>216.7</altitude>
         <datetime>2024:07:28 16:49:24</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 1</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-322.86</pan>
+            <tilt>-4.35</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-116</pan>
+            <tilt>-2.7</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node30}</url>
+          <target>-116.0/-2.7/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-75.89</pan>
+            <tilt>-5.45</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-99.7</pan>
+            <tilt>-4.7</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node20}</url>
+          <target>-99.7/-4.7/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -292,7 +89,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>35.49</pan>
+            <tilt>-5.68</tilt>
+            <fov>21.35</fov>
+            <roll>90</roll>
+            <aspectratio>2</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164906_658_patch.png</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T22:22:04</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164906_658.jpg</filename>
         <videotype>equi</videotype>
@@ -313,9 +125,62 @@
         <altitude>217.5</altitude>
         <datetime>2024:07:28 16:49:15</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 2</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-310.75</pan>
+            <tilt>-2.43</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>27.5</pan>
+            <tilt>11.2</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node21}</url>
+          <target>27.5/11.2/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-96.91</pan>
+            <tilt>-6.57</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-89.5</pan>
+            <tilt>-4.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node19}</url>
+          <target>-89.5/-4.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -345,9 +210,87 @@
         <altitude>219</altitude>
         <datetime>2024:07:28 16:49:06</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 3</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-351.25</pan>
+            <tilt>-4.94</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node18}</url>
+          <target>0.0/0.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-278.9</pan>
+            <tilt>-2.5</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>46.2</pan>
+            <tilt>6.4</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node20}</url>
+          <target>46.2/6.4/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-160.79</pan>
+            <tilt>-8.19</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-154</pan>
+            <tilt>-3.8</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node17}</url>
+          <target>-154.0/-3.8/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -356,7 +299,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>120.79</pan>
+            <tilt>-25.27</tilt>
+            <fov>57.68</fov>
+            <roll>90</roll>
+            <aspectratio>2</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164848_816_patch.png</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T22:26:23</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164848_816.jpg</filename>
         <videotype>equi</videotype>
@@ -377,9 +335,37 @@
         <altitude>213.5</altitude>
         <datetime>2024:07:28 16:48:57</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 4</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-204.05</pan>
+            <tilt>-10.31</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-165.8</pan>
+            <tilt>-5.9</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node19}</url>
+          <target>-165.8/-5.9/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -409,9 +395,85 @@
         <altitude>214.3</altitude>
         <datetime>2024:07:28 16:48:48</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 5</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-335.5</pan>
+            <tilt>2.65</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>81.5</pan>
+            <tilt>3.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node19}</url>
+          <target>81.5/3.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-154.82</pan>
+            <tilt>-11.42</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-241.39</pan>
+            <tilt>3.75</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-124.1</pan>
+            <tilt>-3.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node16}</url>
+          <target>-124.1/-3.5/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -420,39 +482,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
-        <type>auto</type>
-        <filename>image_360/20240728_164822_290.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2024-07-28T16:48:31</capturedatetime>
-        <latitude>-7.038467</latitude>
-        <longitude>110.350667</longitude>
-        <altitude>214.2</altitude>
-        <datetime>2024:07:28 16:48:30</datetime>
-        <tags>image_360</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node15</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-98.56</pan>
+            <tilt>-33.43</tilt>
+            <fov>79.37</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164831_144_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T22:31:48</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164831_144.jpg</filename>
         <videotype>equi</videotype>
@@ -473,9 +518,62 @@
         <altitude>213.7</altitude>
         <datetime>2024:07:28 16:48:39</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 6</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-121.17</pan>
+            <tilt>-2.58</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-15.1</pan>
+            <tilt>6.9</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node15}</url>
+          <target>-15.1/6.9/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-312.05</pan>
+            <tilt>-15.7</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>22.8</pan>
+            <tilt>0</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node17}</url>
+          <target>22.8/0.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -484,7 +582,97 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-29.57</pan>
+            <tilt>-11.22</tilt>
+            <fov>29.79</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164822_290_patch.png</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T22:37:02</lastmodified>
+          </imagepatch>
+        </patch>
+        <type>auto</type>
+        <filename>image_360/20240728_164822_290.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:48:31</capturedatetime>
+        <latitude>-7.038467</latitude>
+        <longitude>110.350667</longitude>
+        <altitude>214.2</altitude>
+        <datetime>2024:07:28 16:48:30</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 7</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-300.69</pan>
+            <tilt>-4.32</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>40.7</pan>
+            <tilt>-2.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node16}</url>
+          <target>40.7/-2.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node15</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch>
+          <imagepatch>
+            <pan>-134.09</pan>
+            <tilt>-21.66</tilt>
+            <fov>61.58</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164813_674_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:06:12</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164813_674.jpg</filename>
         <videotype>equi</videotype>
@@ -505,9 +693,61 @@
         <altitude>210</altitude>
         <datetime>2024:07:28 16:48:21</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 8</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-131.03</pan>
+            <tilt>2.9</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>27.5</pan>
+            <tilt>4.6</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node17}</url>
+          <target>27.5/4.6/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-316.44</pan>
+            <tilt>-12.89</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node13}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -537,9 +777,62 @@
         <altitude>201.8</altitude>
         <datetime>2024:07:28 16:48:13</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 9</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-13.44</pan>
+            <tilt>1.51</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-132.2</pan>
+            <tilt>3.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>-132.2/3.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-163.97</pan>
+            <tilt>-11.51</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-91.4</pan>
+            <tilt>-14.2</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node12}</url>
+          <target>-91.4/-14.2/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -548,7 +841,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-4.72</pan>
+            <tilt>-45.83</tilt>
+            <fov>105.28</fov>
+            <roll>90</roll>
+            <aspectratio>1.5</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164757_044_patch.jpg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:11:17</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164757_044.jpg</filename>
         <videotype>equi</videotype>
@@ -569,9 +877,62 @@
         <altitude>203.1</altitude>
         <datetime>2024:07:28 16:48:04</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 10</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-209.85</pan>
+            <tilt>19.96</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>7.3</pan>
+            <tilt>0.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node13}</url>
+          <target>7.3/0.5/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-90.36</pan>
+            <tilt>-18.76</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>1.7</pan>
+            <tilt>0</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>1.7/0.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -601,9 +962,62 @@
         <altitude>200.6</altitude>
         <datetime>2024:07:28 16:47:56</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 11</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-327.28</pan>
+            <tilt>-8.4</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>17.4</pan>
+            <tilt>1.8</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>17.4/1.8/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-193.95</pan>
+            <tilt>9.63</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>80.8</pan>
+            <tilt>8.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node12}</url>
+          <target>80.8/8.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -612,7 +1026,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>159.02</pan>
+            <tilt>-29.66</tilt>
+            <fov>71.5</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164740_070_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:15:20</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164740_070.jpg</filename>
         <videotype>equi</videotype>
@@ -633,9 +1062,62 @@
         <altitude>195.6</altitude>
         <datetime>2024:07:28 16:47:48</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 12</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-339.29</pan>
+            <tilt>-5.78</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-20.7</pan>
+            <tilt>-1.6</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node9}</url>
+          <target>-20.7/-1.6/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-142.85</pan>
+            <tilt>-2.07</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>163.1</pan>
+            <tilt>3.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node11}</url>
+          <target>163.1/3.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -644,7 +1126,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>115.02</pan>
+            <tilt>-32.35</tilt>
+            <fov>75.71</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164731_648_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:21:51</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164731_648.jpg</filename>
         <videotype>equi</videotype>
@@ -665,9 +1162,62 @@
         <altitude>194.6</altitude>
         <datetime>2024:07:28 16:47:39</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 13</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-204.86</pan>
+            <tilt>-3.02</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-165.8</pan>
+            <tilt>-7.9</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <target>-165.8/-7.9/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-23.79</pan>
+            <tilt>-3.43</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-89.7</pan>
+            <tilt>8.8</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <target>-89.7/8.8/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -676,7 +1226,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-101.98</pan>
+            <tilt>-22.93</tilt>
+            <fov>50.06</fov>
+            <roll>90</roll>
+            <aspectratio>1.5</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164722_438_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:25:37</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164722_438.jpg</filename>
         <videotype>equi</videotype>
@@ -697,9 +1262,62 @@
         <altitude>190</altitude>
         <datetime>2024:07:28 16:47:31</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 14</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-252.71</pan>
+            <tilt>-2.93</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>152</pan>
+            <tilt>1.9</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node9}</url>
+          <target>152.0/1.9/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-100.73</pan>
+            <tilt>-7.92</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>133.9</pan>
+            <tilt>-1.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node7}</url>
+          <target>133.9/-1.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -708,7 +1326,36 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-84.33</pan>
+            <tilt>-50.58</tilt>
+            <fov>95.28</fov>
+            <roll>90</roll>
+            <aspectratio>2</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164713_069_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:36:17</lastmodified>
+          </imagepatch>
+          <imagepatch>
+            <pan>133.99</pan>
+            <tilt>-77.67</tilt>
+            <fov>35.44</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164713_069_patch_1.png</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:41:50</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164713_069.jpg</filename>
         <videotype>equi</videotype>
@@ -729,9 +1376,62 @@
         <altitude>182.6</altitude>
         <datetime>2024:07:28 16:47:22</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 15</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-47.83</pan>
+            <tilt>-7.21</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>105.3</pan>
+            <tilt>1.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <target>105.3/1.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-227.52</pan>
+            <tilt>3.85</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>172</pan>
+            <tilt>0.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>172.0/0.5/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -740,7 +1440,36 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-110.95</pan>
+            <tilt>-33.94</tilt>
+            <fov>76.44</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164703_889_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:45:30</lastmodified>
+          </imagepatch>
+          <imagepatch>
+            <pan>-114.78</pan>
+            <tilt>3.67</tilt>
+            <fov>26.32</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164703_889_patch_1.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-08T23:53:18</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164703_889.jpg</filename>
         <videotype>equi</videotype>
@@ -761,9 +1490,62 @@
         <altitude>186.3</altitude>
         <datetime>2024:07:28 16:47:12</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 16</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-8.09</pan>
+            <tilt>-7.56</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-42.7</pan>
+            <tilt>-0.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node7}</url>
+          <target>-42.7/-0.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-190.86</pan>
+            <tilt>-6.5</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>96.6</pan>
+            <tilt>1.8</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <target>96.6/1.8/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
@@ -772,7 +1554,22 @@
     </panorama>
     <panorama>
       <input>
-        <patch/>
+        <patch>
+          <imagepatch>
+            <pan>-165.29</pan>
+            <tilt>-44.65</tilt>
+            <fov>112</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>0</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/20240728_164653_685_patch.jpeg</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2024-08-09T00:26:40</lastmodified>
+          </imagepatch>
+        </patch>
         <type>auto</type>
         <filename>image_360/20240728_164653_685.jpg</filename>
         <videotype>equi</videotype>
@@ -793,16 +1590,613 @@
         <altitude>182.3</altitude>
         <datetime>2024:07:28 16:47:03</datetime>
         <tags>image_360</tags>
+        <title>Goa Kreo 17</title>
+        <usealtitude>0</usealtitude>
       </userdata>
       <floorplans/>
-      <hotspots/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-104.84</pan>
+            <tilt>-6.02</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-4.2</pan>
+            <tilt>0.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>-4.2/0.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <sounds/>
       <id>node2</id>
     </panorama>
-    <start>node2</start>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_165019_856.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:50:26</capturedatetime>
+        <latitude>-7.041628</latitude>
+        <longitude>110.353483</longitude>
+        <altitude>185</altitude>
+        <datetime>2024:07:28 16:50:26</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 18</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-281.29</pan>
+            <tilt>-7.42</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-77.8</pan>
+            <tilt>5.9</tilt>
+            <fov>52.8</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node21}</url>
+          <target>-77.8/5.9/52.8</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-132.14</pan>
+            <tilt>-5.74</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node28}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node30</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_165006_383.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:50:13</capturedatetime>
+        <latitude>-7.041758</latitude>
+        <longitude>110.353306</longitude>
+        <altitude>184.6</altitude>
+        <datetime>2024:07:28 16:50:13</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 19</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-348.73</pan>
+            <tilt>-1.11</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-54.7</pan>
+            <tilt>-0.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node30}</url>
+          <target>-54.7/-0.5/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-151.95</pan>
+            <tilt>-10.42</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-155.6</pan>
+            <tilt>-4.1</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node27}</url>
+          <target>-155.6/-4.1/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node28</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164959_405.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:50:06</capturedatetime>
+        <latitude>-7.041353</latitude>
+        <longitude>110.352628</longitude>
+        <altitude>177.8</altitude>
+        <datetime>2024:07:28 16:50:05</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 20</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-353.81</pan>
+            <tilt>-0.4</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node28}</url>
+          <target>0.0/0.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-152.67</pan>
+            <tilt>-8.15</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>131.2</pan>
+            <tilt>-6.4</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node26}</url>
+          <target>131.2/-6.4/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node27</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164952_685.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:49:59</capturedatetime>
+        <latitude>-7.041331</latitude>
+        <longitude>110.352278</longitude>
+        <altitude>177.8</altitude>
+        <datetime>2024:07:28 16:49:59</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 21</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-232.02</pan>
+            <tilt>-13.28</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>67.8</pan>
+            <tilt>4.4</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node25}</url>
+          <target>67.8/4.4/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-336.65</pan>
+            <tilt>-1.51</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node27}</url>
+          <target>0.0/0.0/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-129.01</pan>
+            <tilt>-6.1</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-22</pan>
+            <tilt>-4.4</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node24}</url>
+          <target>-22.0/-4.4/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node26</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164946_078.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:49:52</capturedatetime>
+        <latitude>-7.041169</latitude>
+        <longitude>110.352289</longitude>
+        <altitude>180.7</altitude>
+        <datetime>2024:07:28 16:49:52</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 22</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-120.58</pan>
+            <tilt>6.88</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>19.1</pan>
+            <tilt>-0.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node26}</url>
+          <target>19.1/-0.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node25</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164939_630.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:49:45</capturedatetime>
+        <latitude>-7.041386</latitude>
+        <longitude>110.351761</longitude>
+        <altitude>177</altitude>
+        <datetime>2024:07:28 16:49:45</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 23</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-122.59</pan>
+            <tilt>0.57</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>129.2</pan>
+            <tilt>-3.5</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node26}</url>
+          <target>129.2/-3.5/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-16.69</pan>
+            <tilt>-3.68</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-105.4</pan>
+            <tilt>9.8</tilt>
+            <fov>58.9</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node23}</url>
+          <target>-105.4/9.8/58.9</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node24</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>auto</type>
+        <filename>image_360/20240728_164933_087.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2024-07-28T16:49:39</capturedatetime>
+        <latitude>-7.041050</latitude>
+        <longitude>110.351644</longitude>
+        <altitude>183.2</altitude>
+        <datetime>2024:07:28 16:49:39</datetime>
+        <tags>image_360</tags>
+        <title>Goa Kreo 24</title>
+        <usealtitude>0</usealtitude>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-305.93</pan>
+            <tilt>-2.56</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>-129.4</pan>
+            <tilt>-1.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node24}</url>
+          <target>-129.4/-1.3/70.0</target>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node23</id>
+    </panorama>
+    <start>node21</start>
   </tour>
   <panorama>
     <id>master</id>
@@ -825,7 +2219,7 @@
           <enabled>1</enabled>
           <filename>goa_kreo/index.html</filename>
           <values>
-            <value id="css"></value>
+            <value id="css"/>
             <value id="fitcover">false</value>
             <value id="gginfo">false</value>
             <value id="htmltitle">$(upt)</value>
