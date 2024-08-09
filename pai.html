@@ -10,33 +10,48 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://rizky-phb.github.io/deploy_template/custom/assets/images/favicon.png" />
     <!-- Custom CSS -->
     <style>
-      /* Default styling for mobile */
-      .hero-image {
-        width: 100%;
-        height: auto;
-        max-height: 20vh; /* 20% of viewport height */
-        object-fit: cover;
-      }
+/* CSS */
 
-      /* Styling for desktop */
-      @media (min-width: 768px) {
-        .hero-image {
-          max-height: 50vh; /* 50% of viewport height */
-        }
-      }
+/* Style untuk hero header di tampilan desktop */
+.hero-header {
+  position: relative;
+  text-align: center;
+  color: white; /* Teks berwarna putih */
+}
 
-      @media (min-width: 1024px) {
-        .hero-image {
-          max-height: 30vh; /* 30% of viewport height */
-        }
-      }
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-      /* Adjusting the main content margin for desktop view */
-      @media (min-width: 1024px) {
-        .page-wrapper {
-          margin-top: 10vh;
-        }
-      }
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* Style untuk tampilan mobile */
+@media (max-width: 768px) {
+  .hero-header {
+    text-align: center;
+    color: black; /* Teks berwarna hitam */
+  }
+
+  .hero-image {
+    display: none; /* Sembunyikan gambar di tampilan mobile */
+  }
+
+  .hero-text {
+    position: static;
+    transform: none;
+    padding: 20px;
+    background-color: #f0f0f0; /* Sesuaikan dengan background saat ini */
+  }
+}
+
     </style>
     <link href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
     <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
@@ -49,8 +64,40 @@
   </head>
 
   <body>
-    <img src="flaskapp/static/images/header_tegal.jpg" class="img img-fluid hero-image" alt="hero image" />
-    <div id="main-wrapperrfdgd">
+    <!-- Hero Header -->
+<div class="hero-header">
+    <!-- Gambar untuk hero header -->
+    <img src="flaskapp/static/images/header_tegal.jpg" alt="Hero Image" class="hero-image">
+    
+    <!-- Teks untuk hero header -->
+    <div class="hero-text">
+        <div class="wow fadeInDown">
+            <h1 class="text-white">Sindang Kemadu</h1>
+            <p class="text-white">Desa Muncanglarang, Kec. Bumijawa, Kab. Tegal, Jawa Tengah, 52466</p>
+        </div>
+        <div class="wow fadeInUp">
+            <a href="../../vt_sindangkemadu/index.php"><button id="mulai"
+                    class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Mulai
+                    Tur</button></a>
+            <a href="https://www.google.com/maps/place/Sindang+Kemadu/@-7.1739318,109.107766,17z/data=!3m1!4b1!4m6!3m5!1s0x2e6f931d0a26fe7f:0xb94675d6dc9e52f9!8m2!3d-7.1739371!4d109.1103409!16s%2Fg%2F11n0zy04_f?authuser=0&entry=ttu" target="_blank"><button id="kenalan"
+                    class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Lihat
+                    Rute</button></a>
+            <div class="arrow">
+                <a href="#about">
+                    <svg style="font-size:32px;transform: rotate(180deg)" aria-hidden="true"
+                        focusable="false" data-prefix="fas" data-icon="angle-up"
+                        class="svg-inline--fa fa-angle-up fa-w-10" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                        <path fill="white"
+                            d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="main-wrapperrfdgd">
       <div class="page-wrapper">
         <div class="page-titles">
           <div class="row">

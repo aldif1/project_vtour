@@ -1,36 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virtual Tour Semarang</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="FlexileDash is powerful and clean admin dashboard template" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>FlexileDash Bootstrap Dashboard - by Wrappixel</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://rizky-phb.github.io/deploy_template/custom/assets/images/favicon.png" />
+    <!-- Custom CSS -->
+    <style>
+      /* Default styling for mobile */
+      .hero-image {
+        width: 100%;
+        height: auto;
+        max-height: 20vh; /* 20% of viewport height */
+        object-fit: cover;
+      }
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Virtual Tour</a>
-</nav>
+      /* Styling for desktop */
+      @media (min-width: 768px) {
+        .hero-image {
+          max-height: 50vh; /* 50% of viewport height */
+        }
+      }
 
-<!-- Main Content -->
-<div class="container mt-5">
-    <h3>Semarang</h3>
-    <p>Kota Semarang merupakan ibu kota Provinsi Jawa Tengah dengan beragam tempat wisata menarik.</p>
-    <div id="tour-details" class="mt-4">
-        <h4>Tempat Wisata:</h4>
-        <ul class="list-group">
-            <li class="list-group-item">Lawang Sewu</li>
-            <li class="list-group-item">Sam Poo Kong</li>
-            <li class="list-group-item">Kota Lama Semarang</li>
-        </ul>
+      @media (min-width: 1024px) {
+        .hero-image {
+          max-height: 30vh; /* 30% of viewport height */
+        }
+      }
+
+      /* Adjusting the main content margin for desktop view */
+      @media (min-width: 1024px) {
+        .page-wrapper {
+          margin-top: 10vh;
+        }
+      }
+    </style>
+    <link href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
+    <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <img src="flaskapp/static/images/header_semarang.jpg" class="img img-fluid hero-image" alt="hero image" />
+    <div id="main-wrapperrfdgd">
+      <div class="page-wrapper">
+        <div class="page-titles">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="display-4 fw-bold">Wisata Semarang</h1>
+              <p class="lead">Melalui tur virtual ini, kami membawa Anda menjelajahi destinasi wisata terbaik di Kabupaten Semarang, Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card overflow-hidden">
+                <div class="el-card-item pb-3">
+                  <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center">
+                    <a class="" href="tegal.html" target="_blank">
+                      <img src="flaskapp/static/images/card_tegal.jpg" class="d-block position-relative w-100" alt="user" />
+                    </a>
+                  </div>
+                  <div class="el-card-content text-center">
+                    <h4 class="mb-0">Tegal</h4>
+                    <span class="text-muted">Laka Laka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card overflow-hidden">
+                <div class="el-card-item pb-3">
+                  <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center">
+                    <a class="" href="semarang.html" target="_blank">
+                      <img src="flaskapp/static/images/card_semarang.jpg" class="d-block position-relative w-100" alt="user" />
+                    </a>
+                  </div>
+                  <div class="el-card-content text-center">
+                    <h4 class="mb-0">Semarang</h4>
+                    <span class="text-muted">Ibu Kota Jateng</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer text-center">2021© All Rights Reserved by Wrappixel</footer>
     </div>
-    <a href="semarang-tour.html" class="btn btn-primary mt-4">Mulai Tur</a>
-</div>
 
-<!-- Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/sparkline/sparkline.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/waves.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/custom.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/meg.init.js"></script>
+  </body>
 </html>

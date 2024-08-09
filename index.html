@@ -3,36 +3,42 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="keywords"
-      content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, FlexileDash bootstrap dashboard admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, material design, FlexileDash bootstrap 5 dashboard template"
-    />
-    <meta
-      name="description"
-      content="FlexileDash is powerful and clean admin dashboard template"
-    />
+    <meta name="description" content="FlexileDash is powerful and clean admin dashboard template" />
     <meta name="robots" content="noindex,nofollow" />
     <title>FlexileDash Bootstrap Dashboard - by Wrappixel</title>
-    <link
-      rel="canonical"
-      href="https://www.wrappixel.com/templates/adminpro/"
-    />
-    <!-- Favicon icon -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://rizky-phb.github.io/deploy_template/custom/assets/images/favicon.png"
-    />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://rizky-phb.github.io/deploy_template/custom/assets/images/favicon.png" />
     <!-- Custom CSS -->
-    <!-- Popup CSS -->
-    <link
-      href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/magnific-popup.css"
-      rel="stylesheet"
-    />
-    <!-- Custom CSS -->
+    <style>
+      /* Default styling for mobile */
+      .hero-image {
+        width: 100%;
+        height: auto;
+        max-height: 20vh; /* 20% of viewport height */
+        object-fit: cover;
+      }
+
+      /* Styling for desktop */
+      @media (min-width: 768px) {
+        .hero-image {
+          max-height: 50vh; /* 50% of viewport height */
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .hero-image {
+          max-height: 30vh; /* 30% of viewport height */
+        }
+      }
+
+      /* Adjusting the main content margin for desktop view */
+      @media (min-width: 1024px) {
+        .page-wrapper {
+          margin-top: 10vh;
+        }
+      }
+    </style>
+    <link href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
     <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,211 +49,26 @@
   </head>
 
   <body>
-    <!-- ============================================================= -->
-    <!-- Preloader - style you can find in spinners.css -->
-    <!-- ============================================================= -->
-   
-    <!-- ============================================================= -->
-    <!-- Main wrapper - style you can find in pages.scss -->
-    <!-- ============================================================= -->
-
-    <img src="flaskapp\static\images\header_tegal.jpg" class="img img-fluid w-100" alt="hero image">
+    <img src="flaskapp/static/images/header_jawa_tengah.jpg" class="img img-fluid hero-image" alt="hero image" />
     <div id="main-wrapperrfdgd">
-      <!-- Page wrapper  -->
-      <!-- ============================================================= -->
       <div class="page-wrapper">
-        <!-- ============================================================== -->
-        <!-- Bread crumb and right sidebar toggle -->
-        <!-- ============================================================== -->
         <div class="page-titles">
           <div class="row">
-            <div class="col-lg-8">
-              <h1 class="display-4 fw-bold">Welcome to Virtual Tour Wisata Jawa Tengah</h1>
-              <p class="lead">
-                Melalui tur virtual ini, kami membawa Anda menjelajahi destinasi wisata terbaik di Jawa Tengah
-              </p>
+            <div class="col-lg-12 text-center">
+              <h1 class="display-4 fw-bold">Virtual Tour Jawa Tengah</h1>
+              <p class="lead">Melalui tur virtual ini, kami membawa Anda menjelajahi destinasi wisata terbaik di Kabupaten Jawa Tengah</p>
             </div>
           </div>
         </div>
-        <!-- ============================================================== -->
-        <!-- End Bread crumb and right sidebar toggle -->
-        <!-- ============================================================== -->
-        <!-- ============================================================= -->
-        <!-- Container fluid  -->
-        <!-- ============================================================= -->
+
         <div class="container-fluid">
-          <div class="row z">
-            <div class="col-lg-3 col-md-6">
-              <div class="card overflow-hidden">
-                <div class="el-card-item pb-3">
-                  <div
-                    class="
-                      el-card-avatar
-                      mb-3
-                      el-overlay-1
-                      w-100
-                      overflow-hidden
-                      position-relative
-                      text-center
-                    "
-                  >
-                    <img
-                      src="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img1.jpg"
-                      class="d-block position-relative w-100"
-                      alt="user"
-                    />
-                    <div class="el-overlay w-100 overflow-hidden">
-                      <ul
-                        class="
-                          list-style-none
-                          el-info
-                          text-white text-uppercase
-                          d-inline-block
-                          p-0
-                        "
-                      >
-                        <li class="el-item d-inline-block my-0 mx-1">
-                          <a
-                            class="
-                              btn
-                              default
-                              btn-outline
-                              image-popup-vertical-fit
-                              el-link
-                              text-white
-                              border-white
-                            "
-                            href="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img1.jpg"
-                            ><i class="ri-search-line fs-6"></i
-                          ></a>
-                        </li>
-                        <li class="el-item d-inline-block my-0 mx-1">
-                          <a
-                            class="
-                              btn
-                              default
-                              btn-outline
-                              el-link
-                              text-white
-                              border-white
-                            "
-                            href="javascript:void(0);"
-                            ><i class="bi bi-link-45deg fs-6"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="el-card-content text-center">
-                    <h4 class="mb-0">Project title</h4>
-                    <span class="text-muted">subtitle of project</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <div class="card overflow-hidden">
-                <div class="el-card-item pb-3">
-                  <div
-                    class="
-                      el-card-avatar
-                      mb-3
-                      el-overlay-1
-                      w-100
-                      overflow-hidden
-                      position-relative
-                      text-center
-                    "
-                  >
-                    <img
-                      src="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img2.jpg"
-                      class="d-block position-relative w-100"
-                      alt="user"
-                    />
-                    <div class="el-overlay w-100 overflow-hidden">
-                      <ul
-                        class="
-                          list-style-none
-                          el-info
-                          text-white text-uppercase
-                          d-inline-block
-                          p-0
-                        "
-                      >
-                        <li class="el-item d-inline-block my-0 mx-1">
-                          <a
-                            class="
-                              btn
-                              default
-                              btn-outline
-                              image-popup-vertical-fit
-                              el-link
-                              text-white
-                              border-white
-                            "
-                            href="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img2.jpg"
-                            ><i class="ri-search-line fs-6"></i
-                          ></a>
-                        </li>
-                        <li class="el-item d-inline-block my-0 mx-1">
-                          <a
-                            class="
-                              btn
-                              default
-                              btn-outline
-                              el-link
-                              text-white
-                              border-white
-                            "
-                            href="javascript:void(0);"
-                            ><i class="bi bi-link-45deg fs-6"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="el-card-content text-center">
-                    <h4 class="mb-0">Project title</h4>
-                    <span class="text-muted">subtitle of project</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-           
-          </div>
-          <div class="row mt-5">
-            <div class="col-md-12">
-              <h4>Other Gallery</h4>
-              <h6 class="card-subtitle mb-3 text-muted">
-                you can make gallery like this
-              </h6>
-            </div>
-          </div>
           <div class="row">
             <div class="col-md-6">
               <div class="card overflow-hidden">
                 <div class="el-card-item pb-3">
-                  <div
-                    class="
-                      el-card-avatar
-                      mb-3
-                      el-overlay-1
-                      w-100
-                      overflow-hidden
-                      position-relative
-                      text-center
-                    "
-                  >
-                    <a
-                      class=""
-                      href="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img5.jpg"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img5.jpg"
-                        class="d-block position-relative w-100"
-                        alt="user"
-                      />
+                  <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center">
+                    <a class="" href="tegal.html" target="_blank">
+                      <img src="flaskapp/static/images/card_tegal.jpg" class="d-block position-relative w-100" alt="user" />
                     </a>
                   </div>
                   <div class="el-card-content text-center">
@@ -256,87 +77,10 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="card overflow-hidden">
+               <!-- <div class="card overflow-hidden">
                 <div class="el-card-item pb-3">
-                  <div
-                    class="
-                      el-card-avatar
-                      mb-3
-                      el-overlay-1
-                      w-100
-                      overflow-hidden
-                      position-relative
-                      text-center
-                    "
-                  >
-                    <a
-                      class=""
-                      href="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img4.jpg"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img4.jpg"
-                        class="d-block position-relative w-100"
-                        alt="user"
-                      />
-                    </a>
-                  </div>
-                  <div class="el-card-content text-center">
-                    <h4 class="mb-0">Project title</h4>
-                    <span class="text-muted">subtitle of project</span>
-                  </div>
-                </div>
-              </div> -->
-            </div>
-            <div class="col-md-6">
-              <div class="card overflow-hidden">
-                <div class="el-card-item pb-3">
-                  <div
-                    class="
-                      el-card-avatar
-                      mb-3
-                      el-overlay-1
-                      w-100
-                      overflow-hidden
-                      position-relative
-                      text-center
-                    "
-                  >
-                    <a
-                      class=""
-                      href="https://rizky-phb.github.io/deploy_template/default/assets/images/users/1.jpg"
-                      target="_blank"
-                    >
-                      <img
-                        src="https://rizky-phb.github.io/deploy_template/default/assets/images/users/1.jpg"
-                        class="d-block position-relative w-100"
-                        alt="user"
-                      />
-                    </a>
-                  </div>
-                  <div class="el-card-content text-center">
-                    <h4 class="mb-0">Semarang</h4>
-                    <span class="text-muted">Ibu Kota Jateng</span>
-                  </div>
-                </div>
-              </div>
-              <!-- <div class="card overflow-hidden">
-                <div class="el-card-item pb-3">
-                  <div
-                    class="
-                      el-card-avatar
-                      mb-3
-                      el-overlay-1
-                      w-100
-                      overflow-hidden
-                      position-relative
-                      text-center
-                    "
-                  >
-                    <a
-                      class="image-popup-vertical-fit"
-                      href="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img2.jpg"
-                    >
+                  <div class=" el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center " >
+                    <a class="image-popup-vertical-fit" href="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img2.jpg" >
                       <img
                         src="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img2.jpg"
                         class="d-block position-relative w-100"
@@ -351,45 +95,35 @@
                 </div>
               </div> -->
             </div>
-           
+            <div class="col-md-6">
+              <div class="card overflow-hidden">
+                <div class="el-card-item pb-3">
+                  <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center">
+                    <a class="" href="semarang.html" target="_blank">
+                      <img src="flaskapp/static/images/card_semarang.jpg" class="d-block position-relative w-100" alt="user" />
+                    </a>
+                  </div>
+                  <div class="el-card-content text-center">
+                    <h4 class="mb-0">Semarang</h4>
+                    <span class="text-muted">Ibu Kota Jateng</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- ============================================================= -->
-      <!-- End Container fluid  -->
-      <!-- ============================================================= -->
-      <!-- ============================================================= -->
-      <!-- footer -->
-      <!-- ============================================================= -->
-      <footer class="footer text-center">
-        2021© All Rights Reserved by Wrappixel
-      </footer>
-      <!-- ============================================================= -->
-      <!-- End footer -->
-      <!-- ============================================================= -->
-    </div>
-    <!-- ============================================================= -->
-    <!-- End Page wrapper  -->
-    <!-- ============================================================= -->
-    <!-- ============================================================= -->
-    <!-- End Wrapper -->
-    <!-- ============================================================= -->
 
-    <!-- ============================================================= -->
-    <!-- All Jquery -->
-    <!-- ============================================================= -->
+      <footer class="footer text-center">2021© All Rights Reserved by Wrappixel</footer>
+    </div>
+
     <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap tether Core JavaScript -->
     <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- slimscrollbar scrollbar JavaScript -->
     <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
     <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/sparkline/sparkline.js"></script>
-    <!--Wave Effects -->
     <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/waves.js"></script>
-    <!--Custom JavaScript -->
     <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
     <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/custom.min.js"></script>
-    <!--This page JavaScript -->
     <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
     <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/meg.init.js"></script>
   </body>
