@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="18080" version="6.1.13">
+<pano2vrconfig version="6.1.13" rev="18080">
   <tour>
     <panorama>
       <input>
@@ -2227,13 +2227,15 @@
           <next>
             <pan>0</pan>
             <tilt>0</tilt>
-            <fov>0</fov>
+            <fov>70</fov>
           </next>
           <polygon/>
           <type>point</type>
           <id>Point01</id>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
+          <url>{node14}</url>
+          <target>0.0/0.0/70.0</target>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
