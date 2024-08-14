@@ -2232,15 +2232,20 @@
           <zoomafterinfov>90</zoomafterinfov>
           <zoomafteroutfov>20</zoomafteroutfov>
         </transition>
-        <autorotate/>
+        <autorotate>
+          <useAnimation>0</useAnimation>
+        </autorotate>
         <soundstransition/>
-        <flyintransition/>
+        <flyintransition>
+          <enabled>0</enabled>
+        </flyintransition>
         <hotspottext/>
         <hotspotstyle/>
         <webvr/>
         <tilesize>2000</tilesize>
         <filename>goa_kreo/pano.xml</filename>
         <skinfile>$d/skin/skin_goa_kreo_.ggsk</skinfile>
+        <fovmode>diagonal</fovmode>
       </htmlcss>
     </output>
     <streetview/>
