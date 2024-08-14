@@ -31,14 +31,13 @@
 	</head>
 	<body>
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-		<script type="text/javascript" src="../../../../goa_kreo/pano2vr_player.js">
-		</script>
-		<script type="text/javascript" src="skin.js">
-		</script>
-		<link rel="stylesheet" href="../../../../goa_kreo/external/css/style.css"/>
-		<script src="https://maps.googleapis.com/maps/api/js?v=3&key="></script>
-		<script src="../../../../goa_kreo/webxr/three.min.js"></script>
-		<script src="../../../../goa_kreo/webxr/webxr-polyfill.min.js"></script>
+<script type="text/javascript" src="{{ url_for('custom_static', filename='goa_kreo/pano2vr_player.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('custom_static', filename='goa_kreo/skin.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('custom_static', filename='goa_kreo/external/css/style.css') }}"/>
+<script src="https://maps.googleapis.com/maps/api/js?v=3&key="></script>
+<script src="{{ url_for('custom_static', filename='goa_kreo/webxr/three.min.js') }}"></script>
+<script src="{{ url_for('custom_static', filename='goa_kreo/webxr/webxr-polyfill.min.js') }}"></script>
+
 		<div id="container" style="width:100%;height:100%;overflow:hidden;">
 		<br>Loading...<br><br>
 		</div>
@@ -51,7 +50,7 @@
 			// load the configuration
 		
 			window.addEventListener("load", function() {
-				pano.readConfigUrlAsync("pano.xml");
+				pano.readConfigUrlAsync("{{ url_for('custom_static', filename='goa_kreo/pano.xml')}}");
 			});
 			if (window.navigator.userAgent.match(/AppleWebKit/i)) {
 				// fix for white borders, rotation on iPhone
