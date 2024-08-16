@@ -31,12 +31,12 @@
 	</head>
 	<body>
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
-<script type="text/javascript" src="{{ url_for('custom_static', filename='goa_kreo/pano2vr_player.js') }}"></script>
-<script type="text/javascript" src="{{ url_for('custom_static', filename='goa_kreo/skin.js') }}"></script>
-<link rel="stylesheet" href="{{ url_for('custom_static', filename='goa_kreo/external/css/style.css') }}"/>
+<script type="text/javascript" src="https://aldif1.github.io/project_vtour/SAM_PO_KONG/pano2vr_player.js"></script>
+<script type="text/javascript" src="https://aldif1.github.io/project_vtour/SAM_PO_KONG/skin.js"></script>
+<link rel="stylesheet" href="https://aldif1.github.io/project_vtour/SAM_PO_KONG/external/css/style.css"/>
 <script src="https://maps.googleapis.com/maps/api/js?v=3&key="></script>
-<script src="{{ url_for('custom_static', filename='goa_kreo/webxr/three.min.js') }}"></script>
-<script src="{{ url_for('custom_static', filename='goa_kreo/webxr/webxr-polyfill.min.js') }}"></script>
+<script src="https://aldif1.github.io/project_vtour/SAM_PO_KONG/webxr/three.min.js"></script>
+<script src="https://aldif1.github.io/project_vtour/SAM_PO_KONG/webxr/webxr-polyfill.min.js"></script>
 
 		<div id="container" style="width:100%;height:100%;overflow:hidden;">
 		<br>Loading...<br><br>
@@ -50,7 +50,7 @@
 			// load the configuration
 		
 			window.addEventListener("load", function() {
-				pano.readConfigUrlAsync("{{ url_for('custom_static', filename='goa_kreo/pano.xml')}}");
+				pano.readConfigUrlAsync("https://aldif1.github.io/project_vtour/SAM_PO_KONG/pano.xml");
 			});
 			if (window.navigator.userAgent.match(/AppleWebKit/i)) {
 				// fix for white borders, rotation on iPhone
@@ -89,7 +89,7 @@
                     var relativePath = img.getAttribute('data-src');
                     
                     // Buat URL menggunakan data Flask
-                    var fullPath = "{{ url_for('custom_static', filename='goa_kreo/') }}" + relativePath;
+                    var fullPath = "https://aldif1.github.io/project_vtour/SAM_PO_KONG/" + relativePath;
                     
                     // Set atribut src ke URL yang baru
                     img.setAttribute('src', fullPath);

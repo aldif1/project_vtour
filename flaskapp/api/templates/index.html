@@ -1,0 +1,77 @@
+{% extends 'include/new_template.html' %}
+    {% block content %} 
+    <img src="/static/images/header_jawa_tengah.jpg" class="img img-fluid hero-image" alt="hero image" />
+    <div id="main-wrapperrfdgd">
+      <div class="page-wrapper">
+        <div class="page-titles">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h1 class="display-4 fw-bold">Virtual Tour Jawa Tengah</h1>
+              <p class="lead">Melalui tur virtual ini, kami membawa Anda menjelajahi destinasi wisata terbaik di Kabupaten Jawa Tengah</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card overflow-hidden" style="background:#E0E7FF">
+                <div class="el-card-item pb-3">
+                  <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center">
+                    <a class="" href="tegal.html" target="_blank">
+                      <img src="/static/images/card_tegal.jpg" class="d-block position-relative w-100" alt="user" />
+                    </a>
+                  </div>
+                  <div class="el-card-content text-center">
+                    <h4 class="mb-0">Tegal</h4>
+                    <span class="text-muted">Laka Laka</span>
+                  </div>
+                </div>
+              </div>
+               <!-- <div class="card overflow-hidden" style="background:#E0E7FF">
+                <div class="el-card-item pb-3">
+                  <div class=" el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center " >
+                    <a class="image-popup-vertical-fit" href="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img2.jpg" >
+                      <img
+                        src="https://rizky-phb.github.io/deploy_template/default/assets/images/big/img2.jpg"
+                        class="d-block position-relative w-100"
+                        alt="user"
+                      />
+                    </a>
+                  </div>
+                  <div class="el-card-content text-center">
+                    <h4 class="mb-0">Project title</h4>
+                    <span class="text-muted">subtitle of project</span>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="col-md-6">
+              <div class="card overflow-hidden" style="background:#E0E7FF">
+                <div class="el-card-item pb-3">
+                  <div class="el-card-avatar mb-3 el-overlay-1 w-100 overflow-hidden position-relative text-center">
+                    <a class="" href="semarang.html" target="_blank">
+                      <img src="/static/images/card_semarang.jpg" class="d-block position-relative w-100" alt="user" />
+                    </a>
+                  </div>
+                  <div class="el-card-content text-center">
+                    <h4 class="mb-0">Semarang</h4>
+                    <span class="text-muted">Ibu Kota Jateng</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="openPopup"><img src="/static/images/icon_saran_dan_kritik_2.png" alt="logo_Saran" width="20px" height="25px"></button>
+
+      <div id="myModal" class="modal">
+          <div class="modal-content">
+              <span class="close">&times;</span>
+              <iframe id="popupFrame" src="" width="100%" height="400px"></iframe>
+          </div>
+      </div>
+      <footer class="footer text-center">2024© All Rights Reserved </footer>
+    </div>
+    {% endblock %}

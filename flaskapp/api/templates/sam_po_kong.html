@@ -1,0 +1,33 @@
+{% extends 'include/new_template.html' %}
+    {% block content %} 
+    <!-- Gambar untuk hero header -->
+    <img src="/static/images/card_sam_po_kong.png" alt="Hero Image" class="hero-image">
+  
+    <!-- Teks untuk hero header -->
+    <div class="hero-text">
+        <div class="wow fadeInDown">
+            <h1 class="text-white">SAM PO KONG</h1>
+            <p class="text-white">Jl. Simongan No.129, Bongsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50148</p>
+        </div>
+        <div class="wow fadeInUp">
+            <a href="SAM_PO_KONG/"><button id="mulai"
+                    class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Mulai
+                    Tur</button></a>
+            <a href="https://maps.app.goo.gl/RRUSoP3nZ4YEFqxC8" target="_blank"><button id="kenalan"
+                    class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Lihat
+                    Rute</button></a>
+           
+        </div>
+    </div>
+  </div>
+
+  <button id="openPopup"><img src="/static/images/icon_saran_dan_kritik_2.png" alt="logo_Saran" width="20px" height="25px"></button>
+
+  <div id="myModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <iframe id="popupFrame" src="" width="100%" height="400px"></iframe>
+      </div>
+  </div>
+  <footer class="footer text-center">2024© All Rights Reserved </footer>
+  {% endblock %}

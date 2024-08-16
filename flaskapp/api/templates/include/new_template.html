@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="FlexileDash is powerful and clean admin dashboard template" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Virtual Tour Jawa Tengah</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://rizky-phb.github.io/deploy_template/custom/assets/images/favicon.png" />
+    <!-- Custom CSS -->
+    <style>
+      /* Default styling for mobile */
+      .hero-image {
+        width: 100%;
+        height: auto;
+        max-height: 20vh; /* 20% of viewport height */
+        object-fit: cover;
+      }
+
+      /* Styling for desktop */
+      @media (min-width: 768px) {
+        .hero-image {
+          max-height: 50vh; /* 50% of viewport height */
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .hero-image {
+          max-height: 30vh; /* 30% of viewport height */
+        }
+      }
+
+      /* Adjusting the main content margin for desktop view */
+      @media (min-width: 1024px) {
+        .page-wrapper {
+          margin-top: 10vh;
+        }
+      }
+  /* Gaya untuk modal (pop-up) */
+  .modal {
+            display: none; /* Hidden by default */
+            position: fixed; 
+            z-index: 1; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%;
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.4); 
+            display: flex; /* Gunakan flexbox untuk pemusatan */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            position: relative; /* Untuk menempatkan tombol close secara absolut */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; 
+            max-width: 500px; /* Batasi lebar maksimal modal */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* Gaya untuk tombol di pojok kanan bawah */
+        #openPopup {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 50%;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #openPopup:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    {% block custom_css %} {% endblock %}
+    <link href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
+    <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    
+    {% block content %} {% endblock %}
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/sparkline/sparkline.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/waves.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/custom.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/meg.init.js"></script>
+    <script>
+        const modal = document.getElementById("myModal");
+        const btn = document.getElementById("openPopup");
+        const span = document.getElementsByClassName("close")[0];
+        const iframe = document.getElementById("popupFrame");
+
+        // Ketika tombol diklik, buka modal
+        btn.onclick = function() {
+            iframe.src = "https://aldif1.github.io/project_vtour/saran_dan_kritik.html";
+            modal.style.display = "flex";
+        }
+
+        // Ketika pengguna mengklik span (x), tutup modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // Ketika pengguna mengklik di luar modal, tutup modal
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const feedback = document.getElementById('feedback').value;
+
+            // Tampilkan pesan terima kasih
+            document.getElementById('thankYouMessage').style.display = 'block';
+
+            document.getElementById('btn-kirim').textContent = "Loading";
+            document.getElementById('btn-kirim').setAttribute("disabled", "disabled");
+
+            // kirim kritik dan saran ke https://flask-hello-world2-six-rose.vercel.app
+            const data = { name: name, feedback: feedback };
+            console.log(JSON.stringify( { name: name, feedback: feedback }))
+            fetch('https://flask-hello-world2-six-rose.vercel.app/api/feedback', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify( { name: name, feedback: feedback }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Tampilkan pesan terima kasih
+                document.getElementById('thankYouMessage').style.display = 'block';
+                document.getElementById('feedbackForm').reset();
+                document.getElementById('feedbackForm').style.display = 'none';
+                document.getElementById('btn-kirim').textContent = "Kirim";
+                document.getElementById('btn-kirim').removeAttribute("disabled");
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('btn-kirim').textContent = "Kirim";
+                document.getElementById('btn-kirim').removeAttribute("disabled");
+            });
+       
+        });
+
+        function displayFeedback() {
+            const feedbackList = document.getElementById('feedbackList');
+            feedbackList.innerHTML = "";
+
+            feedbackData.forEach((item) => {
+                const li = document.createElement('li');
+                li.textContent = `Nama: ${item.name}, Saran & Kritik: ${item.feedback}`;
+                feedbackList.appendChild(li);
+            });
+        }
+
+        function saveToFile(type) {
+            let content;
+            const a = document.createElement('a');
+
+            if (type === 'json') {
+                content = JSON.stringify(feedbackData, null, 2);
+                a.href = 'data:application/json;charset=utf-8,' + encodeURIComponent(content);
+                a.download = 'feedback.json';
+            } else if (type === 'txt') {
+                content = feedbackData.map(item => `Nama: ${item.name}, Saran & Kritik: ${item.feedback}`).join('\n');
+                a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(content);
+                a.download = 'feedback.txt';
+            }
+
+            a.style.display = 'none';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+    
+    {% block custom_js %} {% endblock %}
+</body>
+</html>
+

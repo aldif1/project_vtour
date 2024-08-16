@@ -1,0 +1,246 @@
+{% if session['jwt_token'] %}
+    <!-- Jika jwt_token ada -->
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, FlexileDash bootstrap dashboard admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, material design, FlexileDash bootstrap 5 dashboard template" />
+    <meta name="description" content="FlexileDash is powerful and clean admin dashboard template" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Admin Desa Pangkah</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/custom/image/logo_ico.png" />
+    <!-- Side Bar -->
+    <link rel="stylesheet" type="text/css" href="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/css-chart/css-chart.css" />
+    <!-- Ck Editor -->
+    <link rel="stylesheet" type="text/css" href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/quill/dist/quill.snow.css" />
+    <!-- fix ck editor -->
+    <style>
+      .ql-align-right{
+        text-align:right;
+      }
+      .ql-align-left{
+        text-align:left;
+      }
+      .ql-align-center{
+        text-align:center
+      }
+      .ql-align-justify{
+        text-align:justify
+      }     
+      .rata-kiri-mobile{
+        text-align:right!important;
+      }
+      @media (max-width: 640px) {
+        .rata-kiri-mobile{
+          text-align:left!important;
+        }
+        .btn-info{
+          margin-top:5px;
+          margin-bottom:5px;
+        }
+      }
+    </style>
+    <!-- Table -->
+    <link href="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">  
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/apexcharts/dist/apexcharts.css" />
+    <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/taskboard/js/jquery-ui.min.js"></script>
+    <?xml version="1.0" encoding="UTF-8"?>
+    <meta name="description" content="Tentang Desa Pangkah: Desa Pangkah merupakan desa yang memberi pelayanan publik secara cepat dan efisien. Dengan mengedepankan pelayanan dan pengolahan data berbasis IT, Desa Pangkah diharapkan dapat berkembang menjadi yang lebih maju dalam berbagai aspek baik itu SDM, Kesehatan, Kesejahteraan dan Ekonomi. Dengan Portal Desa Digital semua pelayanan menjadi lebih baik.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Sistem Informasi Desa Pangkah">
+    <meta property="og:description" content="Tentang Desa Pangkah: Desa Pangkah merupakan desa yang memberi pelayanan publik secara cepat dan efisien. Dengan mengedepankan pelayanan dan pengolahan data berbasis IT, Desa Pangkah diharapkan dapat berkembang menjadi yang lebih maju dalam berbagai aspek baik itu SDM, Kesehatan, Kesejahteraan dan Ekonomi. Dengan Portal Desa Digital semua pelayanan menjadi lebih baik.">
+    <meta property="og:image" content="https://desapangkah.com/static/image/logo_ico.png">
+    <meta property="og:url" content="https://desapangkah.com">
+    <script type="application/ld+json">
+       {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Sistem Informasi Desa Pangkah",
+        "url": "http://www.desapangkah.com",
+        "logo": "http://www.desapangkah.com/static/image/logo_ico.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "pemdespangkah@gmail.com",
+            "contactType": "customer service"
+        }
+    }
+    </script>
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    <div id="main-wrapper">
+      <header class="topbar">
+        <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+          <div class="navbar-header">
+            <!-- This is for the sidebar toggle which is visible on mobile only -->
+            <a
+              class="nav-toggler waves-effect waves-light d-block d-md-none"
+              href="javascript:void(0)"
+              ><i class="ri-close-line ri-menu-2-line fs-6"></i
+            ></a>
+            <!-- ============================================================== -->
+            <!-- Logo -->
+            <!-- ============================================================== -->
+
+            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+            <!-- Dark Logo icon -->
+
+            <!-- Light Logo icon -->
+            <img
+              src="https://rizky-phb.github.io/deploy_template/custom/image/Shield_of_Tegal_Regency.svg"
+              alt="homepage"
+              class="light-logo"
+              style="height: 20%; width: 20%; margin-left: 50px"
+            />
+            <a
+              class="topbartoggler d-block d-md-none waves-effect waves-light"
+              href="javascript:void(0)"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              ><i class="ri-more-line fs-6"></i
+            ></a>
+          </div>
+          <!-- ============================================================== -->
+          <!-- End Logo -->
+          <!-- ============================================================== -->
+          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+            <!-- ============================================================== -->
+            <!-- toggle and nav items -->
+            <!-- ============================================================== -->
+            <ul class="navbar-nav me-auto">
+              <!-- This is  -->
+              <li class="nav-item">
+                <a
+                  class="nav-link sidebartoggler d-none d-md-block"
+                  href="javascript:void(0)"
+                  ><i data-feather="menu"></i
+                ></a>
+              </li>
+              <!-- search -->
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown profile-dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex align-items-center"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="https://rizky-phb.github.io/deploy_template/custom/image/default_admin.jpg"
+                    alt="user"
+                    width="30"
+                    class="profile-pic rounded-circle"
+                  />
+                  <div class="d-none d-md-flex">
+                    <span class="ms-2">Hi, <span class="text-dark fw-bold">{{ session['username'] }}</span></span >
+                    <span>
+                      <i data-feather="chevron-down" class="feather-sm"></i>
+                    </span>
+                  </div>
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-end mailbox dropdown-menu-animate-up"
+                  style="width: 50%"
+                >
+                  <ul class="list-style-none">
+                    <li class="p-30 pt-0">
+                      <div class="mt-4">
+                        <a
+                          class="btn btn-info text-white"
+                          href="/keluar"
+                        >
+                          Logout
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      {% include "include/sidebar2.html" %}
+      <div class="page-wrapper">
+        {% block content %}{% endblock content %}
+        <footer class="footer text-center"id='copyright'>
+        </footer>
+      </div>
+    </div>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- apps -->
+    <script>
+      function handleResponse(data,crud,url) {
+        console.log(data);
+        try {
+            if (data.msg === "SUKSES") {
+                alert("Sukses "+crud+" data");
+                window.location.href = url;
+            } else {
+                alert("Gagal "+crud+" data");
+                window.location.href = url;
+            }
+        } catch (error) {
+            console.log(error);
+            alert("Error: " + error);
+            window.location.href = url;
+        }
+      }
+    </script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/app.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/app.init.stylish.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/custom.min.js"></script>
+    <!-- This Page JS -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <!-- Quill editor -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/quill/dist/quill.min.js"></script>
+    <!-- Table -->
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <!-- page agenda js-->
+
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/moment/min/moment.min.js"></script>
+
+    {% block js %}{% endblock js %}
+    <script>
+      var tahunSaatIni = new Date().getFullYear();
+      document.getElementById('copyright').innerHTML = tahunSaatIni+"© All Rights Reserved";
+     </script>
+  </body>
+</html>
+{% else %}
+    <!-- Jika jwt_token tidak ada -->
+    <script>
+        window.location.href = "/";
+    </script>
+{% endif %}
