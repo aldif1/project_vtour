@@ -78,6 +78,24 @@
 				});
 			}
 		</script>
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                // Dapatkan semua elemen <img> dengan class tertentu
+                var images = document.querySelectorAll('.ggskin.ggskin_nodeimage');
+                
+                // Loop melalui setiap <img> dan ubah atribut src
+                images.forEach(function(img) {
+                    // Ambil nilai dari data-src
+                    var relativePath = img.getAttribute('data-src');
+                    
+                    // Buat URL menggunakan data Flask
+                    var fullPath = "{{ url_for('custom_static', filename='goa_kreo/') }}" + relativePath;
+                    
+                    // Set atribut src ke URL yang baru
+                    img.setAttribute('src', fullPath);
+                });
+            });
+        </script>
 		<noscript>
 			<p><b>Please enable Javascript!</b></p>
 		</noscript>

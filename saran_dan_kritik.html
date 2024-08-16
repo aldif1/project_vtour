@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Saran dan Kritik</title>
+    <link href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
+    <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Form Saran dan Kritik</h1>
+    <form id="feedbackForm" class="form-row">
+        <div class="form-group">
+        <label for="name">Nama:</label>
+        <input class="form-control border-medium" type="text" id="name" required>
+        </div>
+        <div class="form-group">
+        <label for="feedback">Saran dan Kritik:</label>
+        <textarea class="form-control" id="feedback" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-success mt-2" type="submit">Kirim</button>
+    </form>
+
+    <p id="thankYouMessage" class="text-strong" style="display:none;">
+        Terima kasih telah memberikan saran dan kritiknya. Kami akan segera mereview dan menindaklanjuti hal ini.
+    </p>
+<!-- 
+    <h2>Data Saran dan Kritik</h2>
+    <ul id="feedbackList"></ul>
+
+    <button onclick="saveToFile('json')">Kirim</button> -->
+
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/sparkline/sparkline.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/waves.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/custom.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/meg.init.js"></script>
+    <script>
+        let feedbackData = [];
+
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const feedback = document.getElementById('feedback').value;
+
+            // Simpan data saran dan kritik
+            feedbackData.push({ name, feedback });
+
+            // Reset form
+            document.getElementById('feedbackForm').reset();
+
+            // Tampilkan pesan terima kasih
+            document.getElementById('thankYouMessage').style.display = 'block';
+
+            // save ke file json
+            saveToFile("json")
+            // Tampilkan data saran dan kritik
+            displayFeedback();
+        });
+
+        function displayFeedback() {
+            const feedbackList = document.getElementById('feedbackList');
+            feedbackList.innerHTML = "";
+
+            feedbackData.forEach((item) => {
+                const li = document.createElement('li');
+                li.textContent = `Nama: ${item.name}, Saran & Kritik: ${item.feedback}`;
+                feedbackList.appendChild(li);
+            });
+        }
+
+        function saveToFile(type) {
+            let content;
+            const a = document.createElement('a');
+
+            if (type === 'json') {
+                content = JSON.stringify(feedbackData, null, 2);
+                a.href = 'data:application/json;charset=utf-8,' + encodeURIComponent(content);
+                a.download = 'feedback.json';
+            } else if (type === 'txt') {
+                content = feedbackData.map(item => `Nama: ${item.name}, Saran & Kritik: ${item.feedback}`).join('\n');
+                a.href = 'data:text/plain;charset=utf-8,' + encodeURIComponent(content);
+                a.download = 'feedback.txt';
+            }
+
+            a.style.display = 'none';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+    </script>
+</body>
+</html>
