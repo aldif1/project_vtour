@@ -5,8 +5,10 @@ import os
 
 app = Flask(__name__)
 
-# Path ke file data.json
-DATA_FILE = os.path.join(os.path.dirname(__file__), 'data.json')
+# Path ke file data.json (lokal)
+# DATA_FILE = os.path.join(os.path.dirname(__file__), 'data.json')
+# Path ke file data.json (vercel serverless)
+DATA_FILE = '/tmp/data.json'
 
 # Fungsi untuk membaca data dari file JSON
 def read_data():
