@@ -4,21 +4,16 @@ import json
 import os
 
 app = Flask(__name__)
-
-# Path ke file data.json (lokal)
-# DATA_FILE = os.path.join(os.path.dirname(__file__), 'data.json')
-# Path ke file data.json (vercel serverless)
-DATA_FILE = '/tmp/data.json'
-
-# Fungsi untuk membaca data dari file JSON
-def read_data():
-    with open(DATA_FILE, 'r') as file:
-        return json.load(file)
-
-# Fungsi untuk menulis data ke file JSON
-def write_data(data):
-    with open(DATA_FILE, 'w') as file:
-        json.dump(data, file, indent=4)
+data = [
+    {
+        "name": "John Doe",
+        "feedback": "Situs ini sangat informatif dan user-friendly. Terima kasih!"
+    },
+    {
+        "name": "Jane Smith",
+        "feedback": "Saya menyarankan agar lebih banyak artikel ditambahkan setiap minggunya."
+    }
+]
 
 @app.route('/api/feedback', methods=['POST'])
 @cross_origin()
@@ -31,14 +26,12 @@ def save_feedback():
         "name": name,
         "feedback": feedback
     }
-    data = read_data()
     data.append(new_feedback)
-    write_data(data)
+
     return jsonify({"message": "Feedback saved successfully!"}), 200
 
 @app.route('/lihat_review')
 def lihat_review():
-    data = read_data()
     return jsonify(data)
 
 @app.route('/')
