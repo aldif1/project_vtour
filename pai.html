@@ -24,14 +24,22 @@
   display: block;
 }
 
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  .hero-text {
+    z-index:99;
+    position: absolute;
+    bottom:48%;
+    right: 40%;
+  }
+.header_mobile{
+  width: 100%;
+  height: auto;
+  max-height: 20vh; /* 20% of viewport height */
+  object-fit: cover;
+  display:none;
 }
-
+.text{
+  color:white;
+}
 /* Style untuk tampilan mobile */
 @media (max-width: 768px) {
   .hero-header {
@@ -42,12 +50,18 @@
   .hero-image {
     display: none; /* Sembunyikan gambar di tampilan mobile */
   }
+  .header_mobile{
+    display:block;
+  }
 
   .hero-text {
     position: static;
     transform: none;
     padding: 20px;
     background-color: #f0f0f0; /* Sesuaikan dengan background saat ini */
+  }
+  .text{
+    color:black;
   }
 }
 
@@ -120,10 +134,11 @@
 <!-- Hero Header -->
 <div class="hero-header">
     <img src="flaskapp/api/static/images/card_pai_2.png" alt="Hero Image" class="hero-image">
+    <img src="flaskapp/api/static/images/pai_header_mobile.png" alt="Hero Image" class="header_mobile fadeInDown animated">
   
-    <div class="hero-text fadeInDown animated">
-        <h1 class="text-white">Pantai Alam Indah</h1>
-        <p class="text-white">Mintaragen, Tegal Timur, Tegal City, Central Java</p>
+    <div class="hero-text fadeInDown animated text-center">
+        <h1 class="text">Pantai Alam Indah</h1>
+        <p class="text">Mintaragen, Tegal Timur, Tegal City, Central Java</p>
         <a href="pai/"><button id="mulai" class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Mulai Tur</button></a>
         <a href="https://maps.app.goo.gl/8Ah8R3QzjRGysQ168" ><button id="kenalan" class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Lihat Rute</button></a>
     </div>

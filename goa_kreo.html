@@ -10,29 +10,36 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://rizky-phb.github.io/deploy_template/custom/assets/images/favicon.png" />
     <!-- Custom CSS -->
     <style>
-/* CSS */
-
-/* Style untuk hero header di tampilan desktop */
+        /* Style untuk hero header di tampilan desktop */
 .hero-header {
-  position: relative;
   text-align: center;
   color: white; /* Teks berwarna putih */
+  position: relative;
 }
 
 .hero-image {
   width: 100%;
-  height: auto;
+  height: 100vh; /* Sesuaikan tinggi dengan viewport */
+  object-fit: cover; /* Gambar akan menutupi seluruh elemen, potongan dari tengah */
   display: block;
 }
 
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  .hero-text {
+    z-index:99;
+    position: absolute;
+    bottom:48%;
+    right: 33%;
+  }
+.header_mobile{
+  width: 100%;
+  height: auto;
+  max-height: 20vh; /* 20% of viewport height */
+  object-fit: cover;
+  display:none;
 }
-
+.text{
+  color:white;
+}
 /* Style untuk tampilan mobile */
 @media (max-width: 768px) {
   .hero-header {
@@ -43,38 +50,44 @@
   .hero-image {
     display: none; /* Sembunyikan gambar di tampilan mobile */
   }
+  .header_mobile{
+    display:block;
+  }
 
   .hero-text {
-    position: api/static;
+    position: static;
     transform: none;
     padding: 20px;
     background-color: #f0f0f0; /* Sesuaikan dengan background saat ini */
   }
+  .text{
+    color:black;
+  }
 }
 
-  /* Gaya untuk modal (pop-up) */
-  .modal {
-            display: none; /* Hidden by default */
-            position: fixed; 
-            z-index: 1; 
+        /* Gaya untuk modal (pop-up) */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
             left: 0;
             top: 0;
-            width: 100%; 
+            width: 100%;
             height: 100%;
-            overflow: auto; 
-            background-color: rgba(0,0,0,0.4); 
-            display: flex; /* Gunakan flexbox untuk pemusatan */
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+            display: flex;
             justify-content: center;
             align-items: center;
         }
 
         .modal-content {
             background-color: #fefefe;
-            position: relative; /* Untuk menempatkan tombol close secara absolut */
+            position: relative;
             padding: 20px;
             border: 1px solid #888;
-            width: 80%; 
-            max-width: 500px; /* Batasi lebar maksimal modal */
+            width: 80%;
+            max-width: 500px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
@@ -94,7 +107,6 @@
             text-decoration: none;
         }
 
-        /* Gaya untuk tombol di pojok kanan bawah */
         #openPopup {
             position: fixed;
             bottom: 20px;
@@ -129,22 +141,17 @@
 <div class="hero-header">
     <!-- Gambar untuk hero header -->
     <img src="flaskapp/api/static/images/card_goa_kreo_2.png" alt="Hero Image" class="hero-image">
+    <img src="flaskapp/api/static/images/card_goa_kreo_2.png" alt="Hero Image" class="header_mobile fadeInDown animated">
   
-    <!-- Teks untuk hero header -->
-    <div class="hero-text">
-        <div class="wow fadeInDown">
-            <h1 class="text-white">Goa Kreo</h1>
-            <p class="text-white">Jl. Raya Goa Kreo, Kandri, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50222</p>
-        </div>
-        <div class="wow fadeInUp">
+    <div class="hero-text fadeInDown animated text-center">
+            <h1 class="text">Goa Kreo</h1>
+            <p class="text">Jl. Raya Goa Kreo, Kandri, Kec. Gn. Pati, Kota Semarang, Jawa Tengah 50222</p>
             <a href="goa_kreo/"><button id="mulai"
                     class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Mulai
                     Tur</button></a>
             <a href="https://maps.app.goo.gl/nJ8FXK3cGvNVBAN59" ><button id="kenalan"
                     class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Lihat
                     Rute</button></a>
-           
-        </div>
     </div>
   </div>
   <button id="openPopup" class="zoomIn animated"><img src="flaskapp/api/static/images/icon_saran_dan_kritik_2.png" alt="logo_Saran" width="20px" height="25px"></button>
