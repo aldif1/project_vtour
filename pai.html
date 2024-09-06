@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,18 +10,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://rizky-phb.github.io/deploy_template/custom/assets/images/favicon.png" />
     <!-- Custom CSS -->
     <style>
-/* CSS */
-
-/* Style untuk hero header di tampilan desktop */
+        /* Style untuk hero header di tampilan desktop */
 .hero-header {
-  position: relative;
   text-align: center;
   color: white; /* Teks berwarna putih */
+  position: relative;
 }
 
 .hero-image {
   width: 100%;
-  height: auto;
+  height: 100vh; /* Sesuaikan tinggi dengan viewport */
+  object-fit: cover; /* Gambar akan menutupi seluruh elemen, potongan dari tengah */
   display: block;
 }
 
@@ -45,36 +44,36 @@
   }
 
   .hero-text {
-    position: api/static;
+    position: static;
     transform: none;
     padding: 20px;
     background-color: #f0f0f0; /* Sesuaikan dengan background saat ini */
   }
 }
 
-  /* Gaya untuk modal (pop-up) */
-  .modal {
-            display: none; /* Hidden by default */
-            position: fixed; 
-            z-index: 1; 
+        /* Gaya untuk modal (pop-up) */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
             left: 0;
             top: 0;
-            width: 100%; 
+            width: 100%;
             height: 100%;
-            overflow: auto; 
-            background-color: rgba(0,0,0,0.4); 
-            display: flex; /* Gunakan flexbox untuk pemusatan */
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+            display: flex;
             justify-content: center;
             align-items: center;
         }
 
         .modal-content {
             background-color: #fefefe;
-            position: relative; /* Untuk menempatkan tombol close secara absolut */
+            position: relative;
             padding: 20px;
             border: 1px solid #888;
-            width: 80%; 
-            max-width: 500px; /* Batasi lebar maksimal modal */
+            width: 80%;
+            max-width: 500px;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
 
@@ -94,7 +93,6 @@
             text-decoration: none;
         }
 
-        /* Gaya untuk tombol di pojok kanan bawah */
         #openPopup {
             position: fixed;
             bottom: 20px;
@@ -115,81 +113,54 @@
     </style>
     <link href="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
     <link href="https://rizky-phb.github.io/deploy_template/custom/dist/css/style.min.css" rel="stylesheet" />
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+</head>
 
-  <body>
-    
-    <!-- Hero Header -->
+<body>
+
+<!-- Hero Header -->
 <div class="hero-header">
-    <!-- Gambar untuk hero header -->
     <img src="flaskapp/api/static/images/card_pai_2.png" alt="Hero Image" class="hero-image">
   
-    <!-- Teks untuk hero header -->
-    <div class="hero-text">
-        <div class="wow fadeInDown">
-            <h1 class="text-white">Pantai Alam Indah</h1>
-            <p class="text-white">Mintaragen, Tegal Timur, Tegal City, Central Java</p>
-        </div>
-        <div class="wow fadeInUp">
-            <a href="pai/"><button id="mulai"
-                    class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Mulai
-                    Tur</button></a>
-            <a href="https://maps.app.goo.gl/8Ah8R3QzjRGysQ168" ><button id="kenalan"
-                    class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Lihat
-                    Rute</button></a>
-           
-        </div>
+    <div class="hero-text fadeInDown animated">
+        <h1 class="text-white">Pantai Alam Indah</h1>
+        <p class="text-white">Mintaragen, Tegal Timur, Tegal City, Central Java</p>
+        <a href="pai/"><button id="mulai" class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Mulai Tur</button></a>
+        <a href="https://maps.app.goo.gl/8Ah8R3QzjRGysQ168" ><button id="kenalan" class="btn btn-warning btn-lg px-4 py-2 fs-5 mx-2 my-3">Lihat Rute</button></a>
     </div>
-  </div>
+</div>
 
-  <button id="openPopup"><img src="flaskapp/api/static/images/icon_saran_dan_kritik_2.png" alt="logo_Saran" width="20px" height="25px"></button>
+<button id="openPopup" class="zoomIn animated"><img src="flaskapp/api/static/images/icon_saran_dan_kritik_2.png" alt="logo_Saran" width="20px" height="25px"></button>
 
-  <div id="myModal" class="modal">
-      <div class="modal-content">
-          <span class="close">&times;</span>
-          <iframe id="popupFrame" src="" width="100%" height="400px"></iframe>
-      </div>
-  </div>
-  <footer class="footer text-center">2024© All Rights Reserved </footer>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/jquery/dist/jquery.min.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/extra-libs/sparkline/sparkline.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/waves.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/feather.min.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/dist/js/custom.min.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
-    <script src="https://rizky-phb.github.io/deploy_template/custom/assets/libs/magnific-popup/meg.init.js"></script>
-    <script>
-      const modal = document.getElementById("myModal");
-      const btn = document.getElementById("openPopup");
-      const span = document.getElementsByClassName("close")[0];
-      const iframe = document.getElementById("popupFrame");
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe id="popupFrame" src="" width="100%" height="400px"></iframe>
+    </div>
+</div>
 
-      // Ketika tombol diklik, buka modal
-      btn.onclick = function() {
-          iframe.src = "saran_dan_kritik.html";
-          modal.style.display = "flex";
-      }
+<footer class="footer text-center">2024© All Rights Reserved </footer>
 
-      // Ketika pengguna mengklik span (x), tutup modal
-      span.onclick = function() {
-          modal.style.display = "none";
-      }
+<script>
+    const modal = document.getElementById("myModal");
+    const btn = document.getElementById("openPopup");
+    const span = document.getElementsByClassName("close")[0];
+    const iframe = document.getElementById("popupFrame");
 
-      // Ketika pengguna mengklik di luar modal, tutup modal
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
-      }
-      
-  </script>
-  </body>
+    btn.onclick = function () {
+        iframe.src = "saran_dan_kritik.html";
+        modal.style.display = "flex";
+    }
+
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+
+</body>
 </html>
